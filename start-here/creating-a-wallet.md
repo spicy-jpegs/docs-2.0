@@ -4,11 +4,12 @@ To use Stargaze, you'll need a Cosmos-compatible wallet. We recommend Keplr or L
 
 ## Recommended Wallets
 
-### Keplr (Most Popular)
+### Keplr
 
 Keplr is the most widely used wallet in the Cosmos ecosystem.
 
 **Browser Extension:**
+
 1. Visit [keplr.app](https://www.keplr.app/)
 2. Click "Install Keplr"
 3. Add the extension to Chrome, Brave, or Firefox
@@ -16,20 +17,27 @@ Keplr is the most widely used wallet in the Cosmos ecosystem.
 5. **Save your seed phrase securely** - this is the only way to recover your wallet
 
 **Mobile:**
-- Available on iOS and Android
-- Search "Keplr Wallet" in your app store
+
+* Available on iOS and Android
+* Search "Keplr Wallet" in your app store
+
+***
 
 ### Leap Wallet
 
 Leap is a user-friendly alternative with a clean interface.
 
 **Browser Extension:**
+
 1. Visit [leapwallet.io](https://www.leapwallet.io/)
 2. Install the browser extension
 3. Create or import a wallet
 
 **Mobile:**
-- Available on iOS and Android
+
+* Available on iOS and Android
+
+***
 
 ## Security Tips
 
@@ -41,6 +49,7 @@ Leap is a user-friendly alternative with a clean interface.
 ## Connecting to Stargaze
 
 Once your wallet is set up:
+
 1. Go to [stargaze.zone](https://stargaze.zone)
 2. Click "Connect Wallet" in the top right
 3. Select your wallet (Keplr or Leap)

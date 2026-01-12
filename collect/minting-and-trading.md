@@ -4,7 +4,7 @@ Learn how to mint new NFTs and trade on the Stargaze marketplace.
 
 ## Minting
 
-Minting is the process of creating a new NFT from a collection's launch.
+Minting is the onchain action that issues a new NFT from a collection’s launch.
 
 ### How to Mint
 
@@ -17,6 +17,7 @@ Minting is the process of creating a new NFT from a collection's launch.
 ### Mint Phases
 
 Most collections have multiple phases:
+
 * **Whitelist** - Early access for approved addresses
 * **Public** - Open to everyone
 
@@ -37,18 +38,18 @@ Want to buy an NFT that isn't listed, or offer less than the asking price?
 
 1. Click **Make Offer** on any NFT
 2. Enter your offer amount
-3. Set an expiration time
-4. Confirm the offer
+3. Confirm the offer
 
 The owner can accept, reject, or counter your offer.
 
 ### Bidding in Auctions
 
 Some NFTs are sold via auction:
+
 1. Find auctions on the marketplace
 2. Place your bid (must be higher than current bid)
 3. If outbid, you'll be refunded automatically
-4. Highest bidder wins when the auction ends
+4. Highest bidder wins when the auction ends. Note that you cannot retrieve your bid after you placed it.
 
 ## Selling NFTs
 
@@ -63,13 +64,15 @@ Some NFTs are sold via auction:
 ### Accepting Offers
 
 When someone makes an offer on your NFT:
+
 1. You'll see it on the NFT page
 2. Click **Accept** to complete the sale
 3. Or ignore/reject offers you don't want
 
 ### Canceling Listings
 
-Changed your mind? Cancel anytime:
+Changed your mind? Cancel anytime before it gets bought:
+
 1. Go to your listed NFT
 2. Click **Cancel Listing**
 3. Confirm the transaction (small gas fee)

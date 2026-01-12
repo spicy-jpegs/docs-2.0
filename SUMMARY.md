@@ -1,5 +1,7 @@
 # Table of contents
 
+* [README](README.md)
+
 ## Start Here
 
 * [What is Stargaze?](start-here/what-is-stargaze.md)
