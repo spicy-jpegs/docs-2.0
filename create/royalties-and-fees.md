@@ -9,6 +9,7 @@ Royalties are your ongoing earnings from secondary sales.
 ### How They Work
 
 When someone resells an NFT from your collection:
+
 1. Sale happens on the marketplace
 2. Your royalty is automatically calculated
 3. Funds are sent to your royalty wallet
@@ -17,15 +18,17 @@ When someone resells an NFT from your collection:
 ### Setting Royalties
 
 When creating your collection:
+
 * **Minimum:** 0%
 * **Maximum:** 10%
-* **Recommended:** 5-7% for most projects
+* **Recommended:** 2-5% for most projects
 
 Once set, royalties cannot be changed.
 
 ### Royalty Wallet
 
 Designate where royalties are sent:
+
 * Can be a single wallet
 * Can be a multisig
 * Can be split between multiple addresses
@@ -37,12 +40,14 @@ Set this during collection creation.
 ### Contract Deployment
 
 Creating your collection on-chain costs:
-* ~5-20 ATOM depending on collection size
+
+* \~5-20 ATOM depending on collection size
 * Paid once during deployment
 
 ### IPFS Storage
 
 Your images and metadata are stored on IPFS:
+
 * Included in deployment cost
 * Permanent storage
 * No ongoing fees
@@ -50,7 +55,8 @@ Your images and metadata are stored on IPFS:
 ### Gas Fees
 
 Small fees for each transaction:
-* ~0.01 ATOM per operation
+
+* \~0.01 ATOM per operation
 * Paid when you interact with the contract
 
 ## Mint Revenue
@@ -58,26 +64,30 @@ Small fees for each transaction:
 ### Primary Sales
 
 When someone mints from your collection:
+
 * You receive the mint price
-* Minus gas fees (~negligible)
+* Minus gas fees (\~negligible)
 * Paid directly to your wallet
 
 ### Example
 
 Collection: 1,000 NFTs at 10 ATOM each
+
 * Gross revenue: 10,000 ATOM
-* Your earnings: ~10,000 ATOM (minus small gas)
+* Your earnings: \~10,000 ATOM (minus small gas)
 
 ## Secondary Revenue
 
 ### From Royalties
 
 Ongoing income from resales:
+
 * 5% royalty on 100 ATOM sale = 5 ATOM to you
 
 ### Tracking Earnings
 
 View your royalty earnings:
+
 1. Go to Studio
 2. Select your collection
 3. Click **Analytics**
@@ -85,12 +95,12 @@ View your royalty earnings:
 
 ## Fee Summary
 
-| When | Fee | Who Pays |
-|------|-----|----------|
-| Deployment | ~5-20 ATOM | Creator |
-| Each mint | Gas (~0.01 ATOM) | Minter |
-| Secondary sale | 2% marketplace | Seller |
-| Secondary sale | 0-10% royalty | Seller → Creator |
+| When           | Fee               | Who Pays         |
+| -------------- | ----------------- | ---------------- |
+| Deployment     | \~5-20 ATOM       | Creator          |
+| Each mint      | Gas (\~0.01 ATOM) | Minter           |
+| Secondary sale | 2% marketplace    | Seller           |
+| Secondary sale | 0-10% royalty     | Seller → Creator |
 
 ## Tips
 
