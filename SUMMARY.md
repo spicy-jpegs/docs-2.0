@@ -47,3 +47,7 @@
 * [FAQ](help/faq.md)
 * [Troubleshooting](help/troubleshooting.md)
 * [Community & Support](help/community-and-support.md)
+
+***
+
+* [Press Kit](press-kit.md)
