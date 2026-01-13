@@ -18,8 +18,8 @@ The full Stargaze logo with text.
 
 | Style | PNG | SVG |
 |-------|-----|-----|
-| Gradient | [500px](https://github.com/public-awesome/assets/blob/main/stargaze/logo/png/sg-logo-gradient-500.png) · [2000px](https://github.com/public-awesome/assets/blob/main/stargaze/logo/png/sg-logo-gradient-2000.png) | [SVG](https://github.com/public-awesome/assets/blob/main/stargaze/logo/svg/sg-logo-gradient.svg) |
-| White | [500px](https://github.com/public-awesome/assets/blob/main/stargaze/logo/png/sg-logo-white-500.png) · [2000px](https://github.com/public-awesome/assets/blob/main/stargaze/logo/png/sg-logo-white-2000.png) | [SVG](https://github.com/public-awesome/assets/blob/main/stargaze/logo/svg/sg-logo-white.svg) |
+| Gradient | [500px](https://github.com/public-awesome/assets/blob/main/Stargaze%20Logo%20Gradient%20(500).png) · [2000px](https://github.com/public-awesome/assets/blob/main/Stargaze%20Logo%20Gradient%20(2000).png) | [SVG](https://github.com/public-awesome/assets/blob/main/Stargaze%20Logo%20Gradient%20SVG.svg) |
+| White | [500px](https://github.com/public-awesome/assets/blob/main/Stargaze%20Logo%20White%20(500).png) · [2000px](https://github.com/public-awesome/assets/blob/main/Stargaze%20Logo%20White%20(2000).png) | [SVG](https://github.com/public-awesome/assets/blob/main/Stargaze%20Logo%20White%20SVG.svg) |
 
 ### Star Symbol
 
@@ -27,15 +27,15 @@ The standalone star icon.
 
 | Style | PNG | SVG |
 |-------|-----|-----|
-| Pink | [500px](https://github.com/public-awesome/assets/blob/main/stargaze/star/png/sg-star-pink-500.png) · [2000px](https://github.com/public-awesome/assets/blob/main/stargaze/star/png/sg-star-pink-2000.png) | [SVG](https://github.com/public-awesome/assets/blob/main/stargaze/star/svg/sg-star-pink.svg) |
-| White | [500px](https://github.com/public-awesome/assets/blob/main/stargaze/star/png/sg-star-white-500.png) · [2000px](https://github.com/public-awesome/assets/blob/main/stargaze/star/png/sg-star-white-2000.png) | [SVG](https://github.com/public-awesome/assets/blob/main/stargaze/star/svg/sg-star-white.svg) |
-| Gradient | [500px](https://github.com/public-awesome/assets/blob/main/stargaze/star/png/sg-star-gradient-500.png) · [2000px](https://github.com/public-awesome/assets/blob/main/stargaze/star/png/sg-star-gradient-2000.png) | [SVG](https://github.com/public-awesome/assets/blob/main/stargaze/star/svg/sg-star-gradient.svg) |
+| Pink | [500px](https://github.com/public-awesome/assets/blob/main/Stargaze%20Pink%20Symbol%20(500).png) · [2000px](https://github.com/public-awesome/assets/blob/main/Stargaze%20Pink%20Symbol%20(2000).png) | [SVG](https://github.com/public-awesome/assets/blob/main/Stargaze%20Pink%20Symbol%20SVG.svg) |
+| White | [500px](https://github.com/public-awesome/assets/blob/main/Stargaze%20White%20Symbol%20(500).png) · [2000px](https://github.com/public-awesome/assets/blob/main/Stargaze%20White%20Symbol%20(2000).png) | [SVG](https://github.com/public-awesome/assets/blob/main/Stargaze%20White%20Symbol%20SVG.svg) |
+| Gradient | [500px](https://github.com/public-awesome/assets/blob/main/Stargaze%20Gradient%20Symbol%20(500).png) · [2000px](https://github.com/public-awesome/assets/blob/main/Stargaze%20Gradient%20Symbol%20(2000).png) | [SVG](https://github.com/public-awesome/assets/blob/main/Stargaze%20Gradient%20Symbol%20SVG.svg) |
 
 ### Pixel Star
 
 A pixel art version of the star icon.
 
-[Download SVG](https://github.com/public-awesome/assets/blob/main/stargaze/star/svg/sg-star-pixel.svg)
+[PNG](https://github.com/public-awesome/assets/blob/main/stargaze_star_pixel.png) · [SVG](https://github.com/public-awesome/assets/blob/main/stargaze_star_pixel.svg)
 
 ## Asset Repository
 
@@ -51,4 +51,4 @@ All brand assets are available in the [public-awesome/assets](https://github.com
 
 ## Contact
 
-For media inquiries, reach out on [Discord](https://discord.gg/stargaze) or [Twitter](https://twitter.com/staraborz).
+For media inquiries, reach out on [Discord](https://discord.gg/stargaze) or [Twitter](https://twitter.com/stargazezone).
