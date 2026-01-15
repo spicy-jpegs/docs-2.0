@@ -69,7 +69,7 @@ Report suspicious activity:
 * Phishing attempts
 * Impersonation
 
-Use Discord `#report` or DM a moderator.
+Use Discord `#support` or DM a moderator.
 
 ### Stolen Art
 
@@ -99,7 +99,7 @@ If you see your art being used without permission:
 ### Feedback
 
 Have suggestions? We listen:
-* Discord `#feedback` channel
+* Discord `#suggestions` channel
 * Twitter replies
 * Direct feedback to team members
 

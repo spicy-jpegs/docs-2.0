@@ -43,7 +43,7 @@ Remove an NFT permanently:
 2. Click **Burn**
 3. Confirm (this is irreversible)
 
-Only burn NFTs you're sure you don't want. You cannot go back after you've burned it.
+Only burn NFTs you're certain you don't want.
 
 ## Portfolio Tracking
 

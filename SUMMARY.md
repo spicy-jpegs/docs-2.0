@@ -2,6 +2,14 @@
 
 * [README](README.md)
 
+## Migration
+
+* [What's Happening](migration/whats-happening.md)
+* [Claiming Your NFTs](migration/claiming-your-nfts.md)
+* [Claiming Your STARS](migration/claiming-your-stars.md)
+* [NFTs on Other Chains / DAOs](migration/nfts-on-other-chains.md)
+* [FAQ](migration/faq.md)
+
 ## Start Here
 
 * [What is Stargaze?](start-here/what-is-stargaze.md)
@@ -34,19 +42,16 @@
 * [Buying & Selling Names](names/buying-and-selling-names.md)
 * [Pricing](names/pricing.md)
 
-## Migration
-
-* [What's Happening](migration/whats-happening.md)
-* [Claiming Your NFTs](migration/claiming-your-nfts.md)
-* [Claiming Your STARS](migration/claiming-your-stars.md)
-* [NFTs on Other Chains / DAOs](migration/nfts-on-other-chains.md)
-* [FAQ](migration/faq.md)
-
 ## Help
 
 * [FAQ](help/faq.md)
 * [Troubleshooting](help/troubleshooting.md)
 * [Community & Support](help/community-and-support.md)
+
+## Developers
+
+* [Overview](developers/overview.md)
+* [CW721 Reference](developers/cw721-reference.md)
 
 ***
 

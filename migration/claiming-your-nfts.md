@@ -2,6 +2,16 @@
 
 How to claim your NFTs on the Cosmos Hub after migration.
 
+## Airdrops vs Claims
+
+### Top 100 Collections
+The top 100 collections by 2025 trading volume will be automatically airdropped to your wallet. No action required, no cost.
+
+### Other Collections
+Collections outside the top 100 must be claimed manually. Gas fees apply.
+
+---
+
 ## Before You Start
 
 Make sure you have:
@@ -33,15 +43,12 @@ Your NFTs were snapshotted before migration. To claim:
 
 ### Step 3: Claim Your NFTs
 
-**Option A: Claim All**
-1. Click **Claim All**
-2. Approve the transaction
-3. All NFTs mint to your wallet
-
-**Option B: Claim Individually**
-1. Select specific NFTs
-2. Click **Claim Selected**
+1. Select the collections you want to claim
+2. Click **Claim**
 3. Approve the transaction
+4. Wait for processing to complete
+
+**You only need to claim once.** The system handles batching automatically behind the scenes due to block space limits. This may take several minutes depending on how many NFTs you hold.
 
 ### Step 4: Verify
 
@@ -52,16 +59,17 @@ After claiming:
 
 ## Costs
 
-* **Claim fee:** Free
-* **Gas fee:** ~0.01 ATOM per NFT (paid in ATOM)
+**Top 100 collections:** Free (airdropped automatically)
 
-For large collections, you may want to claim in batches.
+**Other collections:**
+* **Claim fee:** Free
+* **Gas fee:** Paid in ATOM (exact amount TBD)
 
 ## Timing
 
 * **Claims open:** When Hub deployment is live
 * **Claims expire:** Never - claim anytime
-* **Processing time:** Instant (one transaction)
+* **Processing time:** May take several minutes for large collections (batching handled automatically)
 
 ## Troubleshooting
 
@@ -94,5 +102,5 @@ Your NFTs are now on the Cosmos Hub:
 ## Need Help?
 
 * Check the [FAQ](faq.md)
-* Ask in Discord #migration-help
+* Ask in Discord #support
 * Contact support for complex issues

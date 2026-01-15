@@ -4,15 +4,9 @@ Understanding how Stargaze Names are priced.
 
 ## Registration Pricing
 
-Name prices are based on **character length**:
+Name prices are based on **character length** - shorter names cost more.
 
-| Characters | Price/Year (ATOM) |
-|------------|-------------------|
-| 3 | ~100 ATOM |
-| 4 | ~25 ATOM |
-| 5+ | ~5 ATOM |
-
-*Prices are approximate and may vary. Check current rates during registration.*
+Pricing will be announced before launch. Check current rates during registration.
 
 ## Why Length Matters
 
@@ -29,17 +23,16 @@ Longer names are:
 ## Renewal Pricing
 
 Renewals cost the same as registration:
-* Same price per year
-* Based on current rates
-* No penalty for late renewal (within grace period)
+* Same price per year as initial registration
+* No penalty for late renewal
 
 ## Payment
 
-Names are paid for in **ATOM**.
+Payment token will be announced before launch (likely USDC or ATOM).
 
 The price shown includes:
 * Registration/renewal fee
-* Gas fee (~negligible)
+* Gas fee
 
 ## Secondary Market Pricing
 

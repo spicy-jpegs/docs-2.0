@@ -49,7 +49,7 @@ Some NFTs are sold via auction:
 1. Find auctions on the marketplace
 2. Place your bid (must be higher than current bid)
 3. If outbid, you'll be refunded automatically
-4. Highest bidder wins when the auction ends. Note that you cannot retrieve your bid after you placed it.
+4. Highest bidder wins when the auction ends. Note that bids cannot be withdrawn once placed.
 
 ## Selling NFTs
 

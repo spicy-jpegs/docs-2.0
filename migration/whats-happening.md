@@ -54,16 +54,19 @@ The Cosmos Hub is the center of the Cosmos ecosystem:
 
 ## Timeline
 
-1. **Preparation** - Contracts paused on L1, snapshots taken
+**Snapshot:** February 2026
+
+1. **Preparation** - Contracts paused on L1, snapshot taken
 2. **Hub Deployment** - Apps go live on Cosmos Hub
 3. **Claims Open** - Users claim their NFTs and STARS
 4. **L1 Sunset** - Original chain winds down
 
 ## What You Need to Do
 
-1. **Claim your NFTs** - [Guide](claiming-your-nfts.md)
-2. **Claim your STARS** - [Guide](claiming-your-stars.md)
-3. **Check special cases** - [NFTs on other chains](nfts-on-other-chains.md)
+1. **Check if your NFTs are airdropped** - Top 100 collections (by 2025 volume) are airdropped automatically
+2. **Claim other NFTs** - Collections outside top 100 need manual claiming - [Guide](claiming-your-nfts.md)
+3. **Claim your STARS** - [Guide](claiming-your-stars.md)
+4. **Check special cases** - [NFTs on other chains](nfts-on-other-chains.md)
 
 ## Important Notes
 

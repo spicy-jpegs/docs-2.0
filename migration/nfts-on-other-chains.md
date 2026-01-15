@@ -2,32 +2,33 @@
 
 Special cases for NFTs that weren't in a standard wallet on Stargaze L1.
 
-## NFTs in DAOs
+## NFTs in DAO Treasuries
 
-If your NFTs were held by a DAO contract:
+If your DAO's treasury holds NFTs, they must be moved before the migration snapshot.
 
-### The Challenge
+### Why This Matters
 
-DAO contracts on Stargaze L1 cannot be recreated on the Cosmos Hub. NFTs in DAOs needed special handling.
+DAO contract addresses cannot be reconstructed on the Cosmos Hub. Treasury NFTs will **not** migrate automatically.
 
-### What Happened
+### What's Affected
 
-* DAOs were notified before migration
-* NFTs needed to be moved to regular wallets
-* NFTs remaining in DAOs may not be claimable
+* **Treasury-held NFTs** - Must be moved to a multisig or single wallet
+* **Staked NFTs** - NOT affected, claimable by the staker
+
+Only treasury-held NFTs need action.
 
 ### What to Do
 
-If your NFTs were in a DAO:
-1. Check if the DAO distributed NFTs before snapshot
-2. If moved to your wallet, claim normally
-3. If still in DAO, contact the DAO administrators
+1. Move NFTs out of DAO treasuries to a multisig or single wallet
+2. Deadline: January 31st
+3. After moving, NFTs can be claimed normally on the Hub
 
-### DAO DAO Specific
+### After the Snapshot
 
-DAO DAO on Stargaze is not migrating. NFTs in DAO DAO vaults:
-* Should have been withdrawn before snapshot
-* Contact your DAO's leadership for status
+If NFTs were still in a DAO treasury at snapshot:
+* They cannot be claimed on the Hub
+* Check your DAO's treasury on daodao.zone
+* Contact the DAO creator if needed
 
 ## NFTs on Other Chains (ICS-721)
 
@@ -42,16 +43,18 @@ If you had Stargaze-native NFTs on another chain:
 
 ### Non-Stargaze NFTs on Stargaze
 
-Collections like Mad Scientists (from Osmosis):
-* Being returned to their home chain
-* Claim on Osmosis, not Cosmos Hub
+Collections like Mad Scientists (home chain: Osmosis):
+* Migrating to their home chain
+* Can be bridged to Hub via ICS-721 if desired
 * Check with the collection for specific instructions
+
+We've contacted all ICS-721 collection creators to coordinate the migration.
 
 ### Affected Collections
 
 | Collection | Home Chain | Status |
 |------------|------------|--------|
-| Mad Scientists | Osmosis | Returns to Osmosis |
+| Mad Scientists | Osmosis | Migrates to Osmosis, can bridge to Hub via ICS-721 |
 | Other ICS-721 | Various | Check collection announcements |
 
 ## NFTs in Multisig Wallets
@@ -69,23 +72,6 @@ Good news: Multisig wallets work!
 3. Initiate claim from the multisig
 4. Collect required signatures
 5. NFTs transfer to the multisig
-
-## Liquid Staking (stSTARS)
-
-If you held stSTARS or other liquid staking derivatives:
-
-### Unwinding
-
-* LST protocols are unwinding positions
-* Watch announcements from Stride/etc.
-* Claim underlying STARS, then claim on Hub
-
-### Timeline
-
-LST unwinding happens before the claim period. Make sure to:
-1. Unwind your stSTARS
-2. Receive STARS in your wallet
-3. Claim STARS on Hub
 
 ## Edge Cases
 
@@ -106,7 +92,7 @@ If there's a dispute:
 ## Getting Help
 
 These situations can be complex:
-* Join Discord #migration-help
+* Join Discord #support
 * Provide wallet addresses and context
 * Team members can investigate
 
@@ -115,7 +101,6 @@ These situations can be complex:
 | Situation | Action |
 |-----------|--------|
 | NFTs in regular wallet | Claim normally |
-| NFTs in DAO | Contact DAO leadership |
+| NFTs in DAO treasury | Check daodao.zone, contact DAO creator |
 | NFTs on other chains | Check home chain |
 | NFTs in multisig | Recreate multisig, claim |
-| stSTARS/LST | Unwind first, then claim |

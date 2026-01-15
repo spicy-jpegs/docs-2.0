@@ -32,7 +32,8 @@ A cost-effective option for smaller creators.
 * Same marketplace features once minted
 
 **Trade-offs:**
-* Some advanced features may be limited
+* No whitelist or airdrop functionality
+* No custom mint phases
 
 ## Open Editions
 

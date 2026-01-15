@@ -2,6 +2,8 @@
 
 Frequently asked questions about using Stargaze.
 
+For migration-specific questions, see the [Migration FAQ](../migration/faq.md).
+
 ## Getting Started
 
 ### What is Stargaze?

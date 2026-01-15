@@ -17,7 +17,7 @@ You can claim if you held STARS:
 
 ### Step 1: Connect Wallet
 
-1. Go to [stargaze.zone/claim](https://stargaze.zone/claim)
+1. Go to [stargaze.zone](https://stargaze.zone)
 2. Connect the wallet that held your STARS
 3. The system checks your eligibility
 
@@ -57,11 +57,17 @@ STARS in Osmosis liquidity pools:
 ## After Claiming
 
 Your STARS on the Hub can be used for:
+* Minting NFTs
+* Trading NFTs
 * Trading on DEXs
-* Holding
-* Future utility (TBD)
 
-Note: STARS no longer has staking or governance utility since Stargaze is no longer a chain.
+### Community Pool Restructure
+
+The STARS community pool will be restructured through an on-chain proposal. Funds will be distributed to community DAOs who will manage ongoing initiatives, grants, and ecosystem development.
+
+Details will be announced via a Commonwealth vote before migration.
+
+Note: STARS no longer has staking or governance utility since Stargaze is no longer a standalone chain.
 
 ## Troubleshooting
 

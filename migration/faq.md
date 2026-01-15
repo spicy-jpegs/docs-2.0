@@ -2,7 +2,13 @@
 
 Common questions about the Stargaze migration to Cosmos Hub.
 
+For general Stargaze questions, see the [FAQ](../help/faq.md).
+
 ## General
+
+### When is the snapshot?
+
+February 2026. Exact date and block will be announced via Twitter and Discord.
 
 ### Why is Stargaze migrating?
 
@@ -24,6 +30,10 @@ No. Claims do not expire. Take your time.
 
 ## NFTs
 
+### Which collections are airdropped automatically?
+
+The top 100 collections by 2025 trading volume will be airdropped automatically - no action needed, no cost. All other collections must be claimed manually.
+
 ### Will my NFTs look the same?
 
 Yes. Metadata and images are preserved exactly.
@@ -31,6 +41,14 @@ Yes. Metadata and images are preserved exactly.
 ### Can I trade during migration?
 
 Trading on L1 stopped at snapshot. Trading on Hub begins when claims open.
+
+### What happens to NFTs listed for sale at snapshot?
+
+The seller keeps them. Listings are not transferred - you'll need to relist on the Hub.
+
+### What happens to pending offers at snapshot?
+
+Offers are removed. Funds are returned to the person who made the offer.
 
 ### What about traits and rarity?
 
@@ -54,7 +72,7 @@ No. Stargaze is no longer a blockchain, so there's no staking.
 
 ### What's STARS used for now?
 
-STARS can be traded and held. Future utility may be announced.
+STARS can be used for minting NFTs, trading NFTs, and trading on DEXs.
 
 ### What about STARS on Osmosis?
 
@@ -122,7 +140,7 @@ Old stargaze.zone links redirect to the Hub version.
 
 ### Where can I ask questions?
 
-* Discord: #migration-help channel
+* Discord: #support channel
 * Twitter: @StargazeZone
 * This documentation
 
@@ -147,7 +165,7 @@ Contact support with:
 
 | Task | Where |
 |------|-------|
-| Claim NFTs | stargaze.zone → Profile → Claims |
-| Claim STARS | stargaze.zone/claim |
-| Get help | Discord #migration-help |
-| Check status | stargaze.zone/migration |
+| Claim NFTs | stargaze.zone → Profile |
+| Claim STARS | stargaze.zone |
+| Get help | Discord |
+| Check status | Twitter @StargazeZone |
