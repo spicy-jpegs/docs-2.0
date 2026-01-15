@@ -5,6 +5,7 @@ Stargaze is migrating from its own blockchain to the Cosmos Hub.
 ## The Big Picture
 
 In early 2026, Stargaze is moving:
+
 * **From:** Stargaze L1 (independent chain)
 * **To:** Cosmos Hub (as an application)
 
@@ -15,6 +16,7 @@ This means all NFTs, Names, and the STARS token are moving to a new home.
 ### Stronger Together
 
 The Cosmos Hub is the center of the Cosmos ecosystem:
+
 * More liquidity (ATOM)
 * More users
 * Stronger security
@@ -34,23 +36,21 @@ The Cosmos Hub is the center of the Cosmos ecosystem:
 
 ## What's Moving
 
-| Moving to Hub | Status |
-|---------------|--------|
-| All NFT collections | Claimable |
-| Stargaze Names | Claimable |
-| STARS token | Claimable |
-| Marketplace | Live on Hub |
-| Launchpad | Live on Hub |
-| Studio | Live on Hub |
+| Moving to Hub       | Status      |
+| ------------------- | ----------- |
+| All NFT collections | Claimable   |
+| Stargaze Names      | Claimable   |
+| STARS token         | Claimable   |
+| Marketplace         | Live on Hub |
+| Launchpad           | Live on Hub |
+| Studio              | Live on Hub |
 
 ## What's Not Moving
 
-| Discontinued | Reason |
-|--------------|--------|
-| Stargaze L1 chain | Shutting down |
+| Discontinued       | Reason            |
+| ------------------ | ----------------- |
+| Stargaze L1 chain  | Shutting down     |
 | Validators/staking | No longer a chain |
-| Infinity Swap | Discontinued |
-| StarDEX | Discontinued |
 
 ## Timeline
 
@@ -58,8 +58,9 @@ The Cosmos Hub is the center of the Cosmos ecosystem:
 
 1. **Preparation** - Contracts paused on L1, snapshot taken
 2. **Hub Deployment** - Apps go live on Cosmos Hub
-3. **Claims Open** - Users claim their NFTs and STARS
-4. **L1 Sunset** - Original chain winds down
+3. **NFT Claims Open** - Users claim their NFTs
+4. **STARS Claims Open** - Users claim their STARS
+5. **L1 Sunset** - Original chain winds down
 
 ## What You Need to Do
 
