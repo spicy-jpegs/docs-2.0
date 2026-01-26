@@ -1,4 +1,4 @@
-# NFTs on Other Chains / DAOs
+# NFTs on Other Chains / DAOs\*\*
 
 Special cases for NFTs that weren't in a standard wallet on Stargaze L1.
 
@@ -20,12 +20,13 @@ Only treasury-held NFTs need action.
 ### What to Do
 
 1. Move NFTs out of DAO treasuries to a multisig or single wallet
-2. Deadline: January 31st
+2. Deadline: February 15
 3. After moving, NFTs can be claimed normally on the Hub
 
 ### After the Snapshot
 
 If NFTs were still in a DAO treasury at snapshot:
+
 * They cannot be claimed on the Hub
 * Check your DAO's treasury on daodao.zone
 * Contact the DAO creator if needed
@@ -37,25 +38,30 @@ Some NFTs were transferred to other chains via ICS-721 (interchain NFT standard)
 ### Stargaze NFTs on Osmosis/Neutron
 
 If you had Stargaze-native NFTs on another chain:
+
 * They're being pushed back to their home chains
-* You may need to claim them separately
 * Check the original chain for your NFTs
 
 ### Non-Stargaze NFTs on Stargaze
 
 Collections like Mad Scientists (home chain: Osmosis):
+
 * Migrating to their home chain
-* Can be bridged to Hub via ICS-721 if desired
+* Can be bridged to Hub via ICS-721 if desired afterwards
 * Check with the collection for specific instructions
 
 We've contacted all ICS-721 collection creators to coordinate the migration.
 
 ### Affected Collections
 
-| Collection | Home Chain | Status |
-|------------|------------|--------|
-| Mad Scientists | Osmosis | Migrates to Osmosis, can bridge to Hub via ICS-721 |
-| Other ICS-721 | Various | Check collection announcements |
+| Collection           | Home Chain | Status                                             |
+| -------------------- | ---------- | -------------------------------------------------- |
+| Mad Scientists       | Osmosis    | Migrates to Osmosis, can bridge to Hub via ICS-721 |
+| CEWTs                | Stargaze   | Migrates to Neutron (requested by the creator)     |
+| Nucleus Scientists   | Stargaze   | Migrates to Neutron (requested by the creator)     |
+| Pixel Lions          | Terra      | <mark style="color:orange;">---</mark>             |
+| Galactic Mining Club | Terra      | <mark style="color:orange;">---</mark>             |
+| Other ICS-721        | Various    | Check collection announcements                     |
 
 ## NFTs in Multisig Wallets
 
@@ -78,6 +84,7 @@ Good news: Multisig wallets work!
 ### Lost Access
 
 If you lost wallet access:
+
 * Cannot claim without private keys
 * No recovery mechanism exists
 * Standard crypto self-custody applies
@@ -85,22 +92,25 @@ If you lost wallet access:
 ### Disputed Ownership
 
 If there's a dispute:
+
 * Snapshot is the source of truth
-* On-chain ownership at snapshot block
-* Contact support with transaction evidence
+* On-chain ownership is determined at snapshot block
+
+
 
 ## Getting Help
 
 These situations can be complex:
+
 * Join Discord #support
 * Provide wallet addresses and context
 * Team members can investigate
 
 ## Summary
 
-| Situation | Action |
-|-----------|--------|
-| NFTs in regular wallet | Claim normally |
-| NFTs in DAO treasury | Check daodao.zone, contact DAO creator |
-| NFTs on other chains | Check home chain |
-| NFTs in multisig | Recreate multisig, claim |
+| Situation              | Action                                 |
+| ---------------------- | -------------------------------------- |
+| NFTs in regular wallet | Claim normally                         |
+| NFTs in DAO treasury   | Check daodao.zone, contact DAO creator |
+| NFTs on other chains   | Check other chains                     |
+| NFTs in multisig       | Recreate multisig, claim               |

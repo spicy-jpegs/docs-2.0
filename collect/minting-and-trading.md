@@ -1,6 +1,6 @@
-# Minting & Trading
+# Minting & Trading\*\*
 
-Learn how to mint new NFTs and trade on the Stargaze marketplace.
+Learn how to mint new NFTs and trade on the Stargaze Marketplace.
 
 ## Minting
 
@@ -40,13 +40,13 @@ Want to buy an NFT that isn't listed, or offer less than the asking price?
 2. Enter your offer amount
 3. Confirm the offer
 
-The owner can accept, reject, or counter your offer.
+The owner can accept<mark style="color:orange;">, reject, or counter your offer.</mark>
 
 ### Bidding in Auctions
 
 Some NFTs are sold via auction:
 
-1. Find auctions on the marketplace
+1. Find auctions on the Marketplace
 2. Place your bid (must be higher than current bid)
 3. If outbid, you'll be refunded automatically
 4. Highest bidder wins when the auction ends. Note that bids cannot be withdrawn once placed.
@@ -67,7 +67,7 @@ When someone makes an offer on your NFT:
 
 1. You'll see it on the NFT page
 2. Click **Accept** to complete the sale
-3. Or ignore/reject offers you don't want
+3. <mark style="color:orange;">Or ignore/reject offers you don't want</mark>
 
 ### Canceling Listings
 

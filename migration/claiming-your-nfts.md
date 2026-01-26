@@ -5,27 +5,31 @@ How to claim your NFTs on the Cosmos Hub after migration.
 ## Airdrops vs Claims
 
 ### Top 100 Collections
+
 The top 100 collections by 2025 trading volume will be automatically airdropped to your wallet. No action required, no cost.
 
 ### Other Collections
+
 Collections outside the top 100 must be claimed manually. Gas fees apply.
 
----
+***
 
 ## Before You Start
 
 Make sure you have:
+
 * The wallet that held your NFTs on Stargaze L1
-* A small amount of ATOM for gas fees (~0.1 ATOM)
+* ATOM for gas fees
 * Access to [stargaze.zone](https://stargaze.zone)
 
 ## How Claims Work
 
 Your NFTs were snapshotted before migration. To claim:
+
 1. Connect your original wallet
 2. View your claimable NFTs
 3. Claim them to your Hub address
-4. They appear in your collection
+4. They appear in your profile as claimed.
 
 ## Step-by-Step
 
@@ -53,8 +57,9 @@ Your NFTs were snapshotted before migration. To claim:
 ### Step 4: Verify
 
 After claiming:
-* NFTs appear in your **Collected** tab
-* They're tradeable on the marketplace
+
+* NFTs appear as **Collected** on your profile
+* They're tradeable on the Marketplace
 * Full functionality restored
 
 ## Costs
@@ -62,21 +67,22 @@ After claiming:
 **Top 100 collections:** Free (airdropped automatically)
 
 **Other collections:**
+
 * **Claim fee:** Free
-* **Gas fee:** Paid in ATOM (exact amount TBD)
+* **Gas fee:** Paid in ATOM
 
 ## Timing
 
 * **Claims open:** When Hub deployment is live
 * **Claims expire:** Never - claim anytime
-* **Processing time:** May take several minutes for large collections (batching handled automatically)
+* **Processing time:** May take several minutes for large holdings (batching handled automatically)
 
 ## Troubleshooting
 
 ### "No NFTs to claim"
 
 * Verify you're using the correct wallet
-* Check if NFTs were in a DAO (see [special cases](nfts-on-other-chains.md))
+* Check if NFTs were an ICS721 collection (see [special cases](nfts-on-other-chains.md))
 * NFTs may have been on a different address
 
 ### "Transaction failed"
@@ -88,16 +94,16 @@ After claiming:
 ### "Wrong NFTs showing"
 
 * The snapshot was taken at a specific block
-* NFTs transferred after snapshot belong to the new owner
 * Contact support if you believe there's an error
 
 ## After Claiming
 
 Your NFTs are now on the Cosmos Hub:
+
 * List them for sale
 * Make offers on others
 * Transfer to friends
-* Full marketplace functionality
+* Full Marketplace functionality
 
 ## Need Help?
 

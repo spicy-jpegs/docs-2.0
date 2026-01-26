@@ -5,6 +5,7 @@ Planning to launch an NFT collection on Stargaze? Here's what you need to know.
 ## Is Stargaze Right for You?
 
 Stargaze is a great fit if you:
+
 * Want to reach the Cosmos community
 * Value low fees and fast transactions
 * Need flexible minting options (whitelists, phases, etc.)
@@ -16,14 +17,16 @@ Stargaze is a great fit if you:
 ### 1. Artwork
 
 Your NFT images or media files:
+
 * **Supported formats:** PNG, JPG, GIF, MP4, WEBP
 * **Recommended size:** 1000x1000px minimum for images
-* **File size:** Up to 100MB per file
+* **File size:** Up to 100MB per file, but try to upload lighter files for better performance.
 * **Quantity:** Prepare all assets before launch
 
 ### 2. Metadata
 
 Information about each NFT:
+
 * Name
 * Description
 * Traits/attributes (optional but recommended)
@@ -31,6 +34,7 @@ Information about each NFT:
 ### 3. ATOM for Fees
 
 You'll need ATOM to:
+
 * Deploy your collection contract
 * Upload metadata
 * Pay gas fees during launch
@@ -40,6 +44,7 @@ Budget around 10-50 ATOM depending on collection size.
 ### 4. A Plan
 
 Before launching, decide:
+
 * **Collection size** - How many NFTs?
 * **Pricing** - What's your mint price?
 * **Phases** - Whitelist? Public? Both?
@@ -51,6 +56,7 @@ Before launching, decide:
 ### Timing
 
 Consider:
+
 * Avoid launching during major market events
 * Give yourself buffer time for testing
 * Plan marketing 1-2 weeks before launch
@@ -58,6 +64,7 @@ Consider:
 ### Building Community
 
 Successful launches often have:
+
 * Active Discord or Telegram
 * Twitter presence
 * Engaged early supporters for whitelist
@@ -65,6 +72,7 @@ Successful launches often have:
 ### Setting Expectations
 
 Be realistic:
+
 * Study similar collections' performance
 * Price appropriately for the market
 * Focus on building genuine community, not just hype

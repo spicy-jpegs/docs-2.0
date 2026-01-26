@@ -50,11 +50,11 @@ The Cosmos Hub is the center of the Cosmos ecosystem:
 | Discontinued       | Reason            |
 | ------------------ | ----------------- |
 | Stargaze L1 chain  | Shutting down     |
-| Validators/staking | No longer a chain |
+| Validators/Staking | No longer a chain |
 
 ## Timeline
 
-**Snapshot:** February 2026
+**Snapshot:** End of February 2026/ March 2026
 
 1. **Preparation** - Contracts paused on L1, snapshot taken
 2. **Hub Deployment** - Apps go live on Cosmos Hub

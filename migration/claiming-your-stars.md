@@ -9,9 +9,9 @@ STARS tokens are migrating to the Cosmos Hub. If you held STARS on Stargaze L1, 
 ## Eligibility
 
 You can claim if you held STARS:
+
 * In your wallet on Stargaze L1
 * Staked with validators
-* In liquidity pools (Osmosis)
 
 ## How to Claim
 
@@ -24,6 +24,7 @@ You can claim if you held STARS:
 ### Step 2: View Your Allocation
 
 You'll see:
+
 * Total STARS to claim
 * Breakdown by source (wallet, staking, LP)
 * Claim button
@@ -36,13 +37,14 @@ You'll see:
 
 ## Claim Details
 
-* **Cost:** Free (only gas fees ~0.01 ATOM)
+* **Cost:** Free (only gas fees)
 * **Expiration:** Claims do not expire
 * **Vesting:** None - tokens are immediately available
 
 ## What About Staked STARS?
 
 If your STARS were staked:
+
 * Automatically included in snapshot
 * No need to unstake first
 * Claim the full amount
@@ -50,16 +52,18 @@ If your STARS were staked:
 ## What About LP Tokens?
 
 STARS in Osmosis liquidity pools:
-* Snapshot includes your LP position
-* Claim your STARS portion
+
 * LP tokens on Osmosis remain separate
+* You can use the new LP to trade between STARS <> new STARS token.
 
 ## After Claiming
 
 Your STARS on the Hub can be used for:
+
 * Minting NFTs
 * Trading NFTs
 * Trading on DEXs
+* Side Apps that may use the token
 
 ### Community Pool Restructure
 
@@ -86,8 +90,8 @@ Note: STARS no longer has staking or governance utility since Stargaze is no lon
 ## Liquidity on Osmosis
 
 A stable swap pool exists on Osmosis:
+
 * Swap between old and new STARS
-* Exit to stablecoins if desired
 * Normal DEX functionality
 
 ## Questions?

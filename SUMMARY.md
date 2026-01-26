@@ -7,7 +7,7 @@
 * [What's Happening](migration/whats-happening.md)
 * [Claiming Your NFTs](migration/claiming-your-nfts.md)
 * [Claiming Your STARS](migration/claiming-your-stars.md)
-* [NFTs on Other Chains / DAOs](migration/nfts-on-other-chains.md)
+* [NFTs on Other Chains / DAOs\*\*](migration/nfts-on-other-chains.md)
 * [FAQ](migration/faq.md)
 
 ## Start Here
@@ -15,21 +15,21 @@
 * [What is Stargaze?](start-here/what-is-stargaze.md)
 * [Creating a Wallet](start-here/creating-a-wallet.md)
 * [Getting ATOM](start-here/getting-atom.md)
-* [Paying with Different Tokens](start-here/paying-with-different-tokens.md)
+* [Paying with Different Tokens\*\*](start-here/paying-with-different-tokens.md)
 * [Connecting to Stargaze](start-here/connecting-to-stargaze.md)
 
 ## Collect
 
-* [Minting & Trading](collect/minting-and-trading.md)
-* [Your NFTs](collect/your-nfts.md)
-* [Notifications](collect/notifications.md)
+* [Minting & Trading\*\*](collect/minting-and-trading.md)
+* [Your NFTs\*\*](collect/your-nfts.md)
+* [Notifications\*\*](collect/notifications.md)
 * [Fees](collect/fees.md)
 
 ## Create
 
 * [Before You Start](create/before-you-start.md)
 * [Collection Types](create/collection-types.md)
-* [Using Stargaze Studio](create/using-stargaze-studio.md)
+* [Using Stargaze Studio\*\*\*](create/using-stargaze-studio.md)
 * [Launch & Beyond](create/launch-and-beyond.md)
 * [Royalties & Fees](create/royalties-and-fees.md)
 * [Guidelines](create/guidelines.md)

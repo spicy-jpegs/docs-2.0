@@ -1,6 +1,8 @@
-# Your NFTs
+# Your NFTs\*\*
 
-View and manage your NFT collection on Stargaze.
+<mark style="color:orange;">View and manage your NFT collection on Stargaze.</mark>
+
+<mark style="color:orange;">NEED TO REDO THIS SECTION AFTER 2.0</mark>
 
 ## Viewing Your Collection
 
@@ -66,12 +68,4 @@ View your transaction history:
 
 Find this under the **Activity** tab on your profile.
 
-## Hidden NFTs
-
-Don't want certain NFTs showing in your profile?
-
-1. Select the NFT
-2. Click **Hide**
-3. It won't appear in your main view
-
-Unhide anytime from your hidden items section.
+##

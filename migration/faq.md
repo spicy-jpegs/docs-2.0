@@ -1,4 +1,4 @@
-# Migration FAQ
+# FAQ
 
 Common questions about the Stargaze migration to Cosmos Hub.
 
@@ -8,15 +8,15 @@ For general Stargaze questions, see the [FAQ](../help/faq.md).
 
 ### When is the snapshot?
 
-February 2026. Exact date and block will be announced via Twitter and Discord.
+End of February 2026. Exact date and block will be announced via Twitter and Discord.
 
 ### Why is Stargaze migrating?
 
 To strengthen the Cosmos ecosystem by consolidating on the Hub, providing better liquidity through ATOM, and ensuring sustainable development.
 
-### When did the migration happen?
+### When will the migration happen?
 
-The migration launched in Q1 2026. Check announcements for exact dates.
+The migration will be in Q1 2026. Check announcements for exact dates.
 
 ### Do I need to do anything?
 
@@ -26,7 +26,7 @@ Yes - you need to claim your NFTs and STARS tokens. They don't transfer automati
 
 No. Claims do not expire. Take your time.
 
----
+***
 
 ## NFTs
 
@@ -40,7 +40,7 @@ Yes. Metadata and images are preserved exactly.
 
 ### Can I trade during migration?
 
-Trading on L1 stopped at snapshot. Trading on Hub begins when claims open.
+Trading on L1 stops at snapshot. Trading on Hub begins when claims open.
 
 ### What happens to NFTs listed for sale at snapshot?
 
@@ -58,7 +58,7 @@ All trait data is preserved. Rarity rankings remain the same.
 
 Yes. Creator royalties transfer to the Hub contracts.
 
----
+***
 
 ## STARS Token
 
@@ -78,7 +78,7 @@ STARS can be used for minting NFTs, trading NFTs, and trading on DEXs.
 
 Liquidity pools continue to function. A stable swap pool helps transition.
 
----
+***
 
 ## Technical
 
@@ -96,19 +96,19 @@ Yes. Standard Cosmos Hub security. Your keys never leave your wallet.
 
 ### What about gas fees?
 
-Gas is paid in ATOM on the Hub. Fees are very low (~$0.01).
+Gas is paid in ATOM on the Hub. Fees are very low.
 
----
+***
 
 ## Special Situations
 
 ### My NFTs were in a DAO
 
-DAOs couldn't migrate automatically. Check with your DAO leadership about distribution.
+If you had NFTs staked in a DAO, that's ok. You'll be able to claim them on the Hub as usual. DAOs treasury however couldn't migrate automatically. We've announced extensively before the migration to remove DAO treasury to a new multisig or wallet. Check with your DAO leadership about distribution.
 
 ### My NFTs were on another chain
 
-ICS-721 NFTs return to their home chains. Check collection announcements.
+ICS-721 NFTs return to their home chains. (Mad Scientists returned to Osmosis for example.) Check collection announcements.
 
 ### I had stSTARS
 
@@ -118,7 +118,7 @@ Unwind your liquid staking position first, then claim STARS.
 
 Unfortunately, claims require the original wallet. Standard crypto rules apply.
 
----
+***
 
 ## Old Chain
 
@@ -128,13 +128,13 @@ No. The chain is being sunset. All activity moves to Hub.
 
 ### What happens to validators?
 
-Validators are no longer needed. The Hub has its own validator set.
+The Hub has its own validator set.
 
 ### Are old links broken?
 
 Old stargaze.zone links redirect to the Hub version.
 
----
+***
 
 ## Getting Help
 
@@ -147,6 +147,7 @@ Old stargaze.zone links redirect to the Hub version.
 ### I found a bug
 
 Report in Discord or via support. Include:
+
 * Your wallet address
 * What you expected
 * What happened
@@ -155,17 +156,18 @@ Report in Discord or via support. Include:
 ### Something seems wrong with my claim
 
 Contact support with:
+
 * Wallet address
 * Transaction hashes
 * Description of the issue
 
----
+***
 
 ## Quick Reference
 
-| Task | Where |
-|------|-------|
-| Claim NFTs | stargaze.zone → Profile |
-| Claim STARS | stargaze.zone |
-| Get help | Discord |
-| Check status | Twitter @StargazeZone |
+| Task         | Where                   |
+| ------------ | ----------------------- |
+| Claim NFTs   | stargaze.zone → Profile |
+| Claim STARS  | stargaze.zone           |
+| Get help     | Discord                 |
+| Check status | Twitter @StargazeZone   |

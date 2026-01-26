@@ -1,21 +1,23 @@
-# Paying with Different Tokens
+# Paying with Different Tokens\*\*
 
 Stargaze supports multi-token payments, so you're not locked into a single currency.
 
 ## Supported Tokens
 
-| Token | Description |
-|-------|-------------|
-| **ATOM** | Cosmos Hub native token (primary) |
-| **TIA** | Celestia token |
-| **BTC** | Bitcoin (via IBC) |
-| **USDC** | USD stablecoin |
+| Token     | Description                       |
+| --------- | --------------------------------- |
+| **ATOM**  | Cosmos Hub native token (primary) |
+| **TIA**   | Celestia token                    |
+| **BTC**   | Bitcoin (via IBC)                 |
+| **STARS** | Stargaze STARS                    |
+| **USDC**  | USD stablecoin                    |
 
-*More tokens may be added over time.*
+_More tokens may be added over time._
 
 ## How It Works
 
 When you buy an NFT:
+
 1. View the listing price (displayed in the seller's preferred token)
 2. Choose which token you want to pay with
 3. The swap happens automatically at current market rates
