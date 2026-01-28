@@ -20,7 +20,6 @@ When someone resells an NFT from your collection:
 When creating your collection:
 
 * **Minimum:** 0%
-* **Maximum:** 10%
 * **Recommended:** 2-5% for most projects
 
 Once set, royalties cannot be changed.
@@ -41,22 +40,21 @@ Set this during collection creation.
 
 Creating your collection on-chain costs:
 
-* \~5-20 ATOM depending on collection size
+* \~20-100 USDC depending on collection size
 * Paid once during deployment
 
 ### IPFS Storage
 
-Your images and metadata are stored on IPFS:
+Your images and metadata need to be stored on IPFS:
 
-* Included in deployment cost
-* Permanent storage
-* No ongoing fees
+* Permanent storage (need to stay pinned)
+* Costs depend on number of NFTs / size / IPFS provider
 
 ### Gas Fees
 
 Small fees for each transaction:
 
-* \~0.01 ATOM per operation
+* Per operation
 * Paid when you interact with the contract
 
 ## Mint Revenue
@@ -66,7 +64,7 @@ Small fees for each transaction:
 When someone mints from your collection:
 
 * You receive the mint price
-* Minus gas fees (\~negligible)
+* Minus protocol fees (5%)
 * Paid directly to your wallet
 
 ### Example
@@ -74,7 +72,7 @@ When someone mints from your collection:
 Collection: 1,000 NFTs at 10 ATOM each
 
 * Gross revenue: 10,000 ATOM
-* Your earnings: \~10,000 ATOM (minus small gas)
+* Your earnings: \~9,500 ATOM
 
 ## Secondary Revenue
 
@@ -95,12 +93,12 @@ View your royalty earnings:
 
 ## Fee Summary
 
-| When           | Fee               | Who Pays         |
-| -------------- | ----------------- | ---------------- |
-| Deployment     | \~5-20 ATOM       | Creator          |
-| Each mint      | Gas (\~0.01 ATOM) | Minter           |
-| Secondary sale | 2% marketplace    | Seller           |
-| Secondary sale | 0-10% royalty     | Seller → Creator |
+| When           | Fee             | Who Pays         |
+| -------------- | --------------- | ---------------- |
+| Deployment     | \~20-100 USDC   | Creator          |
+| Each mint      | 5% Protocol Fee | Minter           |
+| Secondary sale | 2% Marketplace  | Seller           |
+| Secondary sale | Royalty         | Seller → Creator |
 
 ## Tips
 

@@ -29,14 +29,17 @@ Your collection is live! Here's how to manage it and build for the long term.
 ### Reveal (If Applicable)
 
 If you used a hidden/reveal mechanic:
+
 1. Go to Studio
-2. Click **Reveal Collection**
-3. Metadata updates automatically
-4. Announce to your community
+2. Make your collection updatable (migrate the contract to updateable)
+3. Reupload on IPFS the revealed tokens
+4. Update IPFS URI on Studio for those tokens
+5. Announce to your community
 
 ### Secondary Market
 
-Once minted, your NFTs trade on the marketplace:
+Once minted, your NFTs trade on the Marketplace:
+
 * Monitor floor price and volume
 * Engage with new collectors
 * Your royalties are paid automatically
@@ -46,6 +49,7 @@ Once minted, your NFTs trade on the marketplace:
 ### Updating Metadata
 
 Some metadata can be updated:
+
 * Collection description
 * External links
 * Cover images
@@ -53,6 +57,7 @@ Some metadata can be updated:
 ### Royalties
 
 Your royalty percentage was set at creation:
+
 * Paid automatically on every sale
 * Sent to your designated wallet
 * Track earnings in your dashboard
@@ -60,6 +65,7 @@ Your royalty percentage was set at creation:
 ### Airdrops to Holders
 
 Want to reward your holders?
+
 1. Export holder snapshot from Studio
 2. Create new tokens or partner rewards
 3. Distribute via airdrop contract
@@ -69,6 +75,7 @@ Want to reward your holders?
 ### Community
 
 The most successful collections:
+
 * Maintain active Discord/Telegram
 * Regular communication from team
 * Give holders reasons to stay engaged
@@ -76,6 +83,7 @@ The most successful collections:
 ### Utility
 
 Consider adding value:
+
 * Holder-only access or content
 * Future mint allowlists
 * Collaborations with other projects
@@ -84,6 +92,7 @@ Consider adding value:
 ### Evolution
 
 Your collection can grow:
+
 * Companion collections
 * Trait upgrades
 * Cross-collection events
@@ -92,6 +101,7 @@ Your collection can grow:
 ## Analytics
 
 Track your collection's health:
+
 * Floor price over time
 * Trading volume
 * Holder distribution
