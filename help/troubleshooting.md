@@ -7,6 +7,7 @@ Solutions to common issues on Stargaze.
 ### Wallet won't connect
 
 **Try these steps:**
+
 1. Refresh the page
 2. Make sure wallet extension is installed and unlocked
 3. Check for pending popups (may be behind other windows)
@@ -14,6 +15,7 @@ Solutions to common issues on Stargaze.
 5. Clear browser cache and try again
 
 **Still not working?**
+
 * Update your wallet extension
 * Try a different browser
 * Disable other wallet extensions temporarily
@@ -21,30 +23,34 @@ Solutions to common issues on Stargaze.
 ### Wrong network
 
 If prompted to switch networks:
+
 1. Click "Switch Network" in the popup
 2. Or manually switch to Cosmos Hub in your wallet settings
 
 ### Transaction stuck/pending
 
 Transactions are usually instant. If stuck:
+
 1. Wait a few minutes
 2. Check transaction status in your wallet
 3. Refresh the page
 4. The transaction may have failed silently - check your balances
 
----
+***
 
 ## Transaction Errors
 
 ### "Insufficient funds"
 
 You need ATOM for gas fees. Solutions:
+
 * Get at least 0.1 ATOM in your wallet
 * Gas fees are small but required for every transaction
 
 ### "Transaction failed"
 
 Common causes:
+
 * Network congestion - wait and retry
 * Insufficient gas - shouldn't happen with default settings
 * Item already sold - someone else bought it first
@@ -56,20 +62,20 @@ You clicked "Reject" in your wallet. Simply retry and click "Approve" this time.
 ### "Out of gas"
 
 Rare on Cosmos. If it happens:
+
 * Try the transaction again
 * Contact support if it persists
 
----
+***
 
 ## Display Issues
 
 ### NFTs not showing
 
 1. Refresh the page
-2. Check if NFTs are hidden (Settings → Hidden)
-3. Verify you're connected with the right wallet
-4. Clear browser cache
-5. NFTs may take a moment to index after purchase
+2. Verify you're connected with the right wallet
+3. Clear browser cache
+4. NFTs may take a moment to index after purchase
 
 ### Images not loading
 
@@ -91,7 +97,7 @@ Rare on Cosmos. If it happens:
 * Try incognito/private mode
 * Update your browser
 
----
+***
 
 ## Trading Issues
 
@@ -99,7 +105,7 @@ Rare on Cosmos. If it happens:
 
 * Item may have just sold
 * You may not have enough funds
-* Check if there are wallet-specific restrictions
+* Ensure you have ATOM for gas
 
 ### Can't list for sale
 
@@ -113,13 +119,7 @@ Rare on Cosmos. If it happens:
 * Refresh the page
 * Check your "Offers Made" in profile
 
-### Sale not completing
-
-* Both parties need to approve
-* Check transaction status
-* May be a network delay
-
----
+***
 
 ## Minting Issues
 
@@ -138,10 +138,11 @@ Rare on Cosmos. If it happens:
 
 ### Wrong NFT received
 
-* Minting is usually random within a collection
-* If genuinely wrong, contact support with transaction hash
+* Minting is random within a collection
 
----
+
+
+***
 
 ## Account Issues
 
@@ -157,13 +158,14 @@ Rare on Cosmos. If it happens:
 * Verify email/Telegram is connected
 * Check spam folder for emails
 
----
+***
 
 ## Getting More Help
 
 ### Collect information
 
 Before contacting support, gather:
+
 * Your wallet address
 * Transaction hash (if applicable)
 * Screenshots of the issue

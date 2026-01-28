@@ -11,11 +11,11 @@ The main community hub for Stargaze.
 **Join:** [discord.gg/stargaze](https://discord.gg/stargaze)
 
 **Channels:**
+
 * `#general` - Community chat
 * `#support` - Get help with issues
 * `#announcements` - Official updates
 * `#creator-chat` - For NFT creators
-* `#price-talk` - Market discussion
 
 ### Twitter
 
@@ -34,29 +34,25 @@ Alternative chat community.
 ### Self-Service
 
 Many questions are answered in:
+
 * This documentation
 * [FAQ](faq.md)
 * [Troubleshooting](troubleshooting.md)
 
-### Community Help
+### Community Help & Official Support
 
 For general questions:
+
 1. Search Discord to see if it's been answered
-2. Ask in `#support` with clear details
-3. Community members and mods can help
-
-### Official Support
-
-For complex issues:
-* DM a moderator on Discord
-* Provide wallet address and transaction details
-* Be patient - complex issues take time
+2. Create a ticket in `#support` with clear details (wallet address and transaction)
+3. Stargaze team will reply
 
 ## Reporting Issues
 
 ### Bugs
 
 Found a bug? Report it:
+
 1. Go to Discord `#support`
 2. Describe what happened
 3. Include screenshots if possible
@@ -65,17 +61,19 @@ Found a bug? Report it:
 ### Scams
 
 Report suspicious activity:
+
 * Fake collections
 * Phishing attempts
 * Impersonation
 
-Use Discord `#support` or DM a moderator.
+Use Discord `#support` .
 
 ### Stolen Art
 
 If you see your art being used without permission:
+
 1. Use the "Report" button on the collection
-2. DM a moderator with proof of ownership
+2. Open a ticket on Discord
 3. We investigate all reports
 
 ## Safety Tips
@@ -99,6 +97,7 @@ If you see your art being used without permission:
 ### Feedback
 
 Have suggestions? We listen:
+
 * Discord `#suggestions` channel
 * Twitter replies
 * Direct feedback to team members
@@ -106,6 +105,7 @@ Have suggestions? We listen:
 ### Community Calls
 
 Occasional community calls happen on:
+
 * Twitter Spaces
 * Discord voice channels
 
@@ -114,19 +114,20 @@ Follow announcements for schedules.
 ### Creator Support
 
 For creators launching collections:
+
 * Discord `#creator-chat`
 * Studio documentation
 * One-on-one support for featured launches
 
 ## Links
 
-| Resource | URL |
-|----------|-----|
-| Website | [stargaze.zone](https://stargaze.zone) |
-| Studio | [studio.stargaze.zone](https://studio.stargaze.zone) |
-| Discord | [discord.gg/stargaze](https://discord.gg/stargaze) |
-| Twitter | [@StargazeZone](https://twitter.com/StargazeZone) |
-| Documentation | [docs.stargaze.zone](https://docs.stargaze.zone) |
+| Resource      | URL                                                  |
+| ------------- | ---------------------------------------------------- |
+| Website       | [stargaze.zone](https://stargaze.zone)               |
+| Studio        | [studio.stargaze.zone](https://studio.stargaze.zone) |
+| Discord       | [discord.gg/stargaze](https://discord.gg/stargaze)   |
+| Twitter       | [@StargazeZone](https://twitter.com/StargazeZone)    |
+| Documentation | [docs.stargaze.zone](https://docs.stargaze.zone)     |
 
 ## Stay Updated
 

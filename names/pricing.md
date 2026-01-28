@@ -1,6 +1,8 @@
-# Pricing
+# Pricing\*\*
 
 Understanding how Stargaze Names are priced.
+
+<mark style="color:orange;">Not sure we should have this page.</mark>&#x20;
 
 ## Registration Pricing
 
@@ -11,11 +13,13 @@ Pricing will be announced before launch. Check current rates during registration
 ## Why Length Matters
 
 Shorter names are:
+
 * More memorable
 * Higher demand
-* Limited supply (only 36³ = 46,656 possible 3-char names)
+* Limited supply
 
 Longer names are:
+
 * More available
 * Affordable for everyone
 * Still fully functional
@@ -23,6 +27,7 @@ Longer names are:
 ## Renewal Pricing
 
 Renewals cost the same as registration:
+
 * Same price per year as initial registration
 * No penalty for late renewal
 
@@ -31,16 +36,19 @@ Renewals cost the same as registration:
 Payment token will be announced before launch (likely USDC or ATOM).
 
 The price shown includes:
+
 * Registration/renewal fee
 * Gas fee
 
 ## Secondary Market Pricing
 
 On the marketplace, prices are set by:
+
 * **Sellers** - List at any price they choose
 * **Market** - Supply and demand
 
 Valuable name characteristics:
+
 * Short (3-4 characters)
 * Dictionary words
 * Brandable terms
@@ -49,18 +57,18 @@ Valuable name characteristics:
 
 ## Price Examples
 
-| Name | Why Valuable |
-|------|--------------|
-| sun.stars | 3 letters, common word |
+| Name         | Why Valuable             |
+| ------------ | ------------------------ |
+| sun.stars    | 3 letters, common word   |
 | cosmos.stars | Brand/ecosystem relevant |
-| 007.stars | Iconic number |
-| defi.stars | Industry term |
+| 007.stars    | Iconic number            |
+| defi.stars   | Industry term            |
 
-| Name | Why Affordable |
-|------|----------------|
-| myname123.stars | Long, includes numbers |
-| john-smith.stars | Long, includes hyphen |
-| abcdefgh.stars | Long, not a word |
+| Name             | Why Affordable         |
+| ---------------- | ---------------------- |
+| myname123.stars  | Long, includes numbers |
+| john-smith.stars | Long, includes hyphen  |
+| abcdefgh.stars   | Long, not a word       |
 
 ## Tips
 

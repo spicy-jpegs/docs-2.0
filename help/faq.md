@@ -22,7 +22,7 @@ ATOM is the primary currency. You can also pay with TIA, BTC, USDC, and other su
 
 Buy on exchanges like Coinbase, Kraken, or Binance, then withdraw to your Cosmos wallet.
 
----
+***
 
 ## Buying & Selling
 
@@ -36,17 +36,17 @@ Go to your profile, select the NFT, click "List for Sale", set your price, and c
 
 ### Can I make offers?
 
-Yes! Click "Make Offer" on any NFT to propose a price. Owners can accept, reject, or counter.
+Yes! Click "Make Offer" on any NFT to propose a price. Owners can accept, <mark style="color:orange;">reject, or counter.</mark>
 
 ### What are the fees?
 
-2% marketplace fee on sales, plus any creator royalties (0-10%). Gas fees are minimal (~$0.01).
+3% marketplace fee on sales, plus any creator royalties. Gas fees are minimal.
 
 ### How do royalties work?
 
-Creators set royalty percentages (0-10%). Royalties are automatically paid on every secondary sale.
+Creators set royalty percentages. Royalties are automatically paid on every secondary sale.
 
----
+***
 
 ## Creating Collections
 
@@ -60,13 +60,13 @@ No. Studio handles everything through a visual interface.
 
 ### What does it cost to launch?
 
-Deployment costs ~5-20 ATOM depending on collection size, plus small gas fees.
+Deployment costs \~20-100 USDC depending on collection type and size, plus small gas fees.
 
 ### Can I set up whitelists?
 
 Yes. Studio supports multiple whitelist phases with different prices and timing.
 
----
+***
 
 ## Names
 
@@ -86,7 +86,7 @@ Yes. Names require annual renewal. There's a 30-day grace period after expiratio
 
 Yes. Names are NFTs and can be traded on the marketplace.
 
----
+***
 
 ## Technical
 
@@ -106,7 +106,7 @@ Some NFTs support ICS-721 (interchain NFT standard) for cross-chain transfers.
 
 Stargaze never has access to your private keys. You approve every transaction.
 
----
+***
 
 ## Troubleshooting
 
@@ -128,7 +128,7 @@ Stargaze never has access to your private keys. You approve every transaction.
 * Try a different browser
 * Check if wallet extension is updated
 
----
+***
 
 ## Support
 
@@ -144,4 +144,4 @@ Join Discord and post in #support with details about what happened.
 
 ### How do I report stolen art?
 
-Use the "Report" button on any collection or contact moderation on Discord.
+Use the "Report" button on any collection or contact us on Discord.

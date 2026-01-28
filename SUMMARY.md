@@ -40,7 +40,7 @@
 * [Registering a Name](names/registering-a-name.md)
 * [Renewals](names/renewals.md)
 * [Buying & Selling Names](names/buying-and-selling-names.md)
-* [Pricing](names/pricing.md)
+* [Pricing\*\*](names/pricing.md)
 
 ## Help
 
