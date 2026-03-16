@@ -1,16 +1,26 @@
 # Claiming Your NFTs
 
-How to claim your NFTs on the Cosmos Hub after migration.
+How to claim your NFTs on the Cosmos Hub after migration.<br>
 
-## Airdrops vs Claims
+{% hint style="info" %}
+Attention: Claiming will be available AFTER auto-migration phase. We estimate auto-migration to take around 1 to 2 days to be completed.
+{% endhint %}
 
-### Top 100 Collections
+## Auto-migration vs Claims
 
-The top 100 collections by 2025 trading volume will be automatically airdropped to your wallet. No action required, no cost.
+### Top 200 Collections
+
+The top 200 collections by year trading volume will be automatically auto-migrated to your wallet. No action required, no cost.
+
+### Featured Collections
+
+Featured Collections, 1/1s, Team Picks and Collections chosen by the community will also auto-migrate.\
+\
+\*Partially minted collections will not be able to be auto-migrated. Any partially minted needs to be claimed.&#x20;
 
 ### Other Collections
 
-Collections outside the top 100 must be claimed manually. Gas fees apply.
+Collections outside the auto-migration list must be claimed manually. Gas fees apply.
 
 ***
 
@@ -24,37 +34,23 @@ Make sure you have:
 
 ## How Claims Work
 
-Your NFTs were snapshotted before migration. To claim:
+Your NFTs were snapshotted before migration.&#x20;
+
+Auto-migration phase should be completed first before claim is active (after snapshot, it will take 1-2 days for the completion due to block space).
+
+To claim:
 
 1. Connect your original wallet
 2. View your claimable NFTs
-3. Claim them to your Hub address
-4. They appear in your profile as claimed.
+3. Claim them to your Hub address.&#x20;
+4. Due to block space, it might take a while for the claim to be done. Check back  after a while if you have many NFTs on your wallet.
+5. They appear in your profile as claimed.
 
-## Step-by-Step
 
-### Step 1: Connect Wallet
-
-1. Go to [stargaze.zone](https://stargaze.zone)
-2. Click **Connect Wallet**
-3. Use the same wallet that held your L1 NFTs
-
-### Step 2: View Claimable NFTs
-
-1. Go to your **Profile**
-2. Click the **Claims** tab
-3. See all NFTs available to claim
-
-### Step 3: Claim Your NFTs
-
-1. Select the collections you want to claim
-2. Click **Claim**
-3. Approve the transaction
-4. Wait for processing to complete
 
 **You only need to claim once.** The system handles batching automatically behind the scenes due to block space limits. This may take several minutes depending on how many NFTs you hold.
 
-### Step 4: Verify
+###
 
 After claiming:
 
@@ -64,7 +60,7 @@ After claiming:
 
 ## Costs
 
-**Top 100 collections:** Free (airdropped automatically)
+**Auto-migration List:** Free (migrated automatically)
 
 **Other collections:**
 
@@ -73,7 +69,7 @@ After claiming:
 
 ## Timing
 
-* **Claims open:** When Hub deployment is live
+* **Claims open:** When Hub deployment is live, after auto-migration phase
 * **Claims expire:** Never - claim anytime
 * **Processing time:** May take several minutes for large holdings (batching handled automatically)
 
@@ -84,17 +80,6 @@ After claiming:
 * Verify you're using the correct wallet
 * Check if NFTs were an ICS721 collection (see [special cases](nfts-on-other-chains.md))
 * NFTs may have been on a different address
-
-### "Transaction failed"
-
-* Ensure you have enough ATOM for gas
-* Try claiming fewer NFTs at once
-* Wait and retry if network is busy
-
-### "Wrong NFTs showing"
-
-* The snapshot was taken at a specific block
-* Contact support if you believe there's an error
 
 ## After Claiming
 

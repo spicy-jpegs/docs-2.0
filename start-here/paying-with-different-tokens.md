@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Paying with Different Tokens\*\*
 
 Stargaze supports multi-token payments, so you're not locked into a single currency.

@@ -64,7 +64,7 @@ Small fees for each transaction:
 When someone mints from your collection:
 
 * You receive the mint price
-* Minus protocol fees (5%)
+* Minus protocol fees (8%)
 * Paid directly to your wallet
 
 ### Example
@@ -72,7 +72,7 @@ When someone mints from your collection:
 Collection: 1,000 NFTs at 10 ATOM each
 
 * Gross revenue: 10,000 ATOM
-* Your earnings: \~9,500 ATOM
+* Your earnings: \~9,200 ATOM
 
 ## Secondary Revenue
 
@@ -96,7 +96,7 @@ View your royalty earnings:
 | When           | Fee             | Who Pays         |
 | -------------- | --------------- | ---------------- |
 | Deployment     | \~20-100 USDC   | Creator          |
-| Each mint      | 5% Protocol Fee | Minter           |
+| Each mint      | 8% Protocol Fee | Minter           |
 | Secondary sale | 2% Marketplace  | Seller           |
 | Secondary sale | Royalty         | Seller → Creator |
 

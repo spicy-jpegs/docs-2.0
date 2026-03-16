@@ -8,7 +8,7 @@ For migration-specific questions, see the [Migration FAQ](../migration/faq.md).
 
 ### What is Stargaze?
 
-Stargaze is the leading NFT marketplace and launchpad on the Cosmos Hub. Buy, sell, and create NFTs with multi-token payments.
+Stargaze is the leading NFT Marketplace and Launchpad on the Cosmos Hub. Buy, sell, and create NFTs with ease.
 
 ### What wallet should I use?
 
@@ -16,7 +16,7 @@ We recommend Keplr or Leap. Both work well with Stargaze.
 
 ### What tokens can I use?
 
-ATOM is the primary currency. You can also pay with TIA, BTC, USDC, and other supported tokens.
+ATOM is the primary currency and also native to Cosmos Hub.&#x20;
 
 ### How do I get ATOM?
 
@@ -36,7 +36,7 @@ Go to your profile, select the NFT, click "List for Sale", set your price, and c
 
 ### Can I make offers?
 
-Yes! Click "Make Offer" on any NFT to propose a price. Owners can accept, <mark style="color:orange;">reject, or counter.</mark>
+Yes! Click "Make Offer" on any NFT to propose a price.&#x20;
 
 ### What are the fees?
 
@@ -115,12 +115,6 @@ Stargaze never has access to your private keys. You approve every transaction.
 * Check you have enough ATOM for gas
 * Try again (network may have been busy)
 * See [Troubleshooting](troubleshooting.md) for more
-
-### I don't see my NFT
-
-* Refresh the page
-* Check it's not in a different wallet
-* Hidden NFTs won't show in main view
 
 ### The site isn't loading
 

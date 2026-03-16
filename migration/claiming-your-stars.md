@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Claiming Your STARS
 
 How to claim your STARS tokens on the Cosmos Hub.

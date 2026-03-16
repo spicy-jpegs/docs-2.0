@@ -1,4 +1,4 @@
-# NFTs on Other Chains / DAOs\*\*
+# NFTs on Other Chains / DAOs
 
 Special cases for NFTs that weren't in a standard wallet on Stargaze L1.
 
@@ -17,19 +17,9 @@ DAO contract addresses cannot be reconstructed on the Cosmos Hub. Treasury NFTs 
 
 Only treasury-held NFTs need action.
 
-### What to Do
 
-1. Move NFTs out of DAO treasuries to a multisig or single wallet
-2. Deadline: February 15
-3. After moving, NFTs can be claimed normally on the Hub
 
-### After the Snapshot
-
-If NFTs were still in a DAO treasury at snapshot:
-
-* They cannot be claimed on the Hub
-* Check your DAO's treasury on daodao.zone
-* Contact the DAO creator if needed
+We have communicated this action extensively for the community. If you missed the announcements and the snapshot already happened, contact us on Discord.
 
 ## NFTs on Other Chains (ICS-721)
 
@@ -59,8 +49,8 @@ We've contacted all ICS-721 collection creators to coordinate the migration.
 | Mad Scientists       | Osmosis    | Migrates to Osmosis, can bridge to Hub via ICS-721 |
 | CEWTs                | Stargaze   | Migrates to Neutron (requested by the creator)     |
 | Nucleus Scientists   | Stargaze   | Migrates to Neutron (requested by the creator)     |
-| Pixel Lions          | Terra      | <mark style="color:orange;">---</mark>             |
-| Galactic Mining Club | Terra      | <mark style="color:orange;">---</mark>             |
+| Pixel Lions          | Terra      | Migrates to Terra under their DAO                  |
+| Galactic Mining Club | Terra      | Migrates to Terra under their DAO                  |
 | Other ICS-721        | Various    | Check collection announcements                     |
 
 ## NFTs in Multisig Wallets
@@ -108,9 +98,10 @@ These situations can be complex:
 
 ## Summary
 
-| Situation              | Action                                 |
-| ---------------------- | -------------------------------------- |
-| NFTs in regular wallet | Claim normally                         |
-| NFTs in DAO treasury   | Check daodao.zone, contact DAO creator |
-| NFTs on other chains   | Check other chains                     |
-| NFTs in multisig       | Recreate multisig, claim               |
+| Situation              | Action                   |
+| ---------------------- | ------------------------ |
+| NFTs in regular wallet | Claim normally           |
+| NFTs in DAO treasury   | Not transferred          |
+| NFTs on other chains   | Check other chains       |
+| NFTs in multisig       | Recreate multisig, claim |
+

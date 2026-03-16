@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # What is a Stargaze Name?
 
 Stargaze Names are human-readable identities for your Cosmos address.

@@ -7,7 +7,7 @@
 * [What's Happening](migration/whats-happening.md)
 * [Claiming Your NFTs](migration/claiming-your-nfts.md)
 * [Claiming Your STARS](migration/claiming-your-stars.md)
-* [NFTs on Other Chains / DAOs\*\*](migration/nfts-on-other-chains.md)
+* [NFTs on Other Chains / DAOs](migration/nfts-on-other-chains.md)
 * [FAQ](migration/faq.md)
 
 ## Start Here
@@ -20,8 +20,8 @@
 
 ## Collect
 
-* [Minting & Trading\*\*](collect/minting-and-trading.md)
-* [Your NFTs\*\*](collect/your-nfts.md)
+* [Minting & Trading](collect/minting-and-trading.md)
+* [Your NFTs](collect/your-nfts.md)
 * [Notifications\*\*](collect/notifications.md)
 * [Fees](collect/fees.md)
 
@@ -29,6 +29,7 @@
 
 * [Before You Start](create/before-you-start.md)
 * [Collection Types](create/collection-types.md)
+* [Stargaze Studio](create/stargaze-studio.md)
 * [Using Stargaze Studio\*\*\*](create/using-stargaze-studio.md)
 * [Launch & Beyond](create/launch-and-beyond.md)
 * [Royalties & Fees](create/royalties-and-fees.md)
@@ -40,7 +41,6 @@
 * [Registering a Name](names/registering-a-name.md)
 * [Renewals](names/renewals.md)
 * [Buying & Selling Names](names/buying-and-selling-names.md)
-* [Pricing\*\*](names/pricing.md)
 
 ## Help
 

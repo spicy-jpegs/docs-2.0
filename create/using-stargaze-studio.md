@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Using Stargaze Studio\*\*\*
 
 Stargaze Studio is your all-in-one tool for creating and managing NFT collections. No coding required.

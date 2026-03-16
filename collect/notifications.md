@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Notifications\*\*
 
 Stay updated on offers, sales, and collection activity.

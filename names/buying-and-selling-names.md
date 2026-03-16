@@ -96,10 +96,3 @@ Premium names (short, common words) can be valuable:
 * Consider auction format for rare names
 * Verify authenticity (no typosquatting)
 
-## Disputes
-
-Bought a name and have issues?
-
-* Contact support with transaction details
-* All sales are on-chain and verifiable
-* Generally, sales are final

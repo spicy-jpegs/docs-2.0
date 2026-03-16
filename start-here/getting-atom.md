@@ -14,6 +14,7 @@ The easiest way to get ATOM if you're new to crypto:
 * **Crypto.com** - [crypto.com](https://www.crypto.com)
 
 **Steps:**
+
 1. Create an account and complete verification
 2. Deposit funds (bank transfer, card, etc.)
 3. Buy ATOM
@@ -40,10 +41,7 @@ Transfers typically take 1-2 minutes.
 
 ## How Much Do I Need?
 
-* **Gas fees** - Usually less than $0.01 per transaction
+* **Gas fees** - Usually very low per transaction
 * **Buying NFTs** - Depends on the collection (check floor prices)
 * **Recommended start** - 5-10 ATOM to explore comfortably
 
-## Using Other Tokens
-
-Stargaze supports multiple tokens for payments including TIA, BTC, and USDC. See [Paying with Different Tokens](paying-with-different-tokens.md) for details.

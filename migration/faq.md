@@ -8,7 +8,7 @@ For general Stargaze questions, see the [FAQ](../help/faq.md).
 
 ### When is the snapshot?
 
-End of February 2026. Exact date and block will be announced via Twitter and Discord.
+March 17th, 2026.
 
 ### Why is Stargaze migrating?
 
@@ -16,11 +16,11 @@ To strengthen the Cosmos ecosystem by consolidating on the Hub, providing better
 
 ### When will the migration happen?
 
-The migration will be in Q1 2026. Check announcements for exact dates.
+The migration will be in Q1 2026, right after the snapshot.
 
 ### Do I need to do anything?
 
-Yes - you need to claim your NFTs and STARS tokens. They don't transfer automatically.
+Yes - you need to claim your NFTs if you wish to have them onchain on the Hub. Auto-migrated NFTs do not need any action.
 
 ### Is there a deadline to claim?
 
@@ -30,9 +30,11 @@ No. Claims do not expire. Take your time.
 
 ## NFTs
 
-### Which collections are airdropped automatically?
+### Which collections are migrated automatically?
 
-The top 100 collections by 2025 trading volume will be airdropped automatically - no action needed, no cost. All other collections must be claimed manually.
+The top 200 collections by yearly trading volume will be migrated automatically - no action needed, no cost. Featured collections (Team Picks, 1/1s , and community picks) will also be auto-migrated.
+
+&#x20;All other collections must be claimed manually.
 
 ### Will my NFTs look the same?
 
@@ -40,7 +42,7 @@ Yes. Metadata and images are preserved exactly.
 
 ### Can I trade during migration?
 
-Trading on L1 stops at snapshot. Trading on Hub begins when claims open.
+Trading on L1 stops at snapshot. Trading on Hub begins after the migration.
 
 ### What happens to NFTs listed for sale at snapshot?
 
@@ -62,17 +64,21 @@ Yes. Creator royalties transfer to the Hub contracts.
 
 ## STARS Token
 
+{% hint style="info" %}
+### Attention: STARS migration is set to Q2. The first migration part is for NFTs only. You will still be able to trade STARS until Q2 normally.
+{% endhint %}
+
 ### What happens to my STARS?
 
-Claim them on the Cosmos Hub. They're still STARS, just on a new chain.
+Claim them on the Cosmos Hub on Q2. They're still STARS, just on a new chain.
 
 ### Can I still stake STARS?
 
-No. Stargaze is no longer a blockchain, so there's no staking.
+No. Stargaze will no longer be a blockchain, so there's no staking.
 
-### What's STARS used for now?
+### What's STARS used for?
 
-STARS can be used for minting NFTs, trading NFTs, and trading on DEXs.
+STARS will still be used for minting NFTs, trading NFTs, and trading on DEXs.
 
 ### What about STARS on Osmosis?
 
@@ -112,7 +118,7 @@ ICS-721 NFTs return to their home chains. (Mad Scientists returned to Osmosis fo
 
 ### I had stSTARS
 
-Unwind your liquid staking position first, then claim STARS.
+Unwind your liquid staking position before Q2, then you will be able to claim STARS when the time comes.
 
 ### I lost my wallet
 
@@ -168,6 +174,6 @@ Contact support with:
 | Task         | Where                   |
 | ------------ | ----------------------- |
 | Claim NFTs   | stargaze.zone → Profile |
-| Claim STARS  | stargaze.zone           |
+| Claim STARS  | on Q2                   |
 | Get help     | Discord                 |
 | Check status | Twitter @StargazeZone   |

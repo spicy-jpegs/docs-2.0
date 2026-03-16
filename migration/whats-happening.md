@@ -24,7 +24,7 @@ The Cosmos Hub is the center of the Cosmos ecosystem:
 
 ### Better for Users
 
-* **Multi-token payments** - Pay with ATOM, TIA, BTC, USDC
+* **Native payments** - Pay with ATOM, the native token from Cosmos Hub
 * **Lower friction** - No need for a separate STARS balance for gas
 * **More activity** - Larger user base
 
@@ -36,14 +36,14 @@ The Cosmos Hub is the center of the Cosmos ecosystem:
 
 ## What's Moving
 
-| Moving to Hub       | Status      |
-| ------------------- | ----------- |
-| All NFT collections | Claimable   |
-| Stargaze Names      | Claimable   |
-| STARS token         | Claimable   |
-| Marketplace         | Live on Hub |
-| Launchpad           | Live on Hub |
-| Studio              | Live on Hub |
+| Moving to Hub       | Status                               |
+| ------------------- | ------------------------------------ |
+| All NFT collections | Claimable on Q1                      |
+| Stargaze Names      | Claimable on Q2                      |
+| STARS token         | Claimable on Q2                      |
+| Marketplace         | Live on Hub right after migration    |
+| Launchpad           | Live on Hub one week after migration |
+| Studio              | Live on Hub one week after migration |
 
 ## What's Not Moving
 
@@ -54,26 +54,26 @@ The Cosmos Hub is the center of the Cosmos ecosystem:
 
 ## Timeline
 
-**Snapshot:** End of February 2026/ March 2026
+**NFT Snapshot:** 17th March 2026&#x20;
 
 1. **Preparation** - Contracts paused on L1, snapshot taken
 2. **Hub Deployment** - Apps go live on Cosmos Hub
 3. **NFT Claims Open** - Users claim their NFTs
-4. **STARS Claims Open** - Users claim their STARS
-5. **L1 Sunset** - Original chain winds down
+4. **STARS Migration** - (Snapshot TBA) Users claim their STARS
+5. **L1 Sunset** - (Timeline TBA) Original chain winds down
 
 ## What You Need to Do
 
-1. **Check if your NFTs are airdropped** - Top 100 collections (by 2025 volume) are airdropped automatically
-2. **Claim other NFTs** - Collections outside top 100 need manual claiming - [Guide](claiming-your-nfts.md)
-3. **Claim your STARS** - [Guide](claiming-your-stars.md)
+1. **Check if your NFTs are airdropped** - Top 200 collections (by yearly volume) are migrating automatically. Featured collections, 1/1s and Community picks are also migrating automatically.
+2. **Claim other NFTs** - Collections outside that list need manual claiming - [Guide](claiming-your-nfts.md)
+3. **Claim your STARS** - At Q2 Snapshot. TBA.
 4. **Check special cases** - [NFTs on other chains](nfts-on-other-chains.md)
 
 ## Important Notes
 
 * **Same wallet** - Your Cosmos address works on the Hub
 * **No rush** - Claims don't expire
-* **Free to claim** - Only pay small gas fees
+* **Free to claim** - Only pay a small gas fee
 
 ## Questions?
 

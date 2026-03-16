@@ -1,4 +1,8 @@
-# Your NFTs\*\*
+---
+hidden: true
+---
+
+# Your NFTs
 
 <mark style="color:orange;">View and manage your NFT collection on Stargaze.</mark>
 
