@@ -8,10 +8,11 @@ Stargaze is the premier NFT marketplace on the Cosmos Hub. Discover, collect, an
 
 ## Why Stargaze?
 
-* **Multi-token payments** - Pay with ATOM, TIA, BTC, USDC and more
+* **Cosmos native** - Built on the Cosmos Hub
 * **Low fees** - Competitive marketplace fees
 * **Creator-friendly** - Powerful tools for artists and projects
-* **Cosmos native** - Built on the Cosmos Hub
+
+
 
 ## Migrating from Stargaze L1?
 
