@@ -8,7 +8,7 @@ When an NFT sells on Stargaze:
 
 | Fee Type            | Amount              | Paid By        |
 | ------------------- | ------------------- | -------------- |
-| **Marketplace fee** | 3%                  | Seller         |
+| **Marketplace fee** | 2%                  | Seller         |
 | **Creator royalty** | x% (set by creator) | Seller         |
 | **Gas fee**         | varies              | Buyer & Seller |
 
@@ -16,9 +16,9 @@ When an NFT sells on Stargaze:
 
 If an NFT sells for 100 ATOM with 5% royalties:
 
-* Seller receives: 92 ATOM (100 - 3% marketplace - 5% royalty)
+* Seller receives: 92 ATOM (100 - 2% marketplace - 5% royalty)
 * Creator receives: 5 ATOM
-* Marketplace receives: 3 ATOM
+* Marketplace receives: 2 ATOM
 
 ## Minting Fees
 
