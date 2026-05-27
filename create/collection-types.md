@@ -19,24 +19,6 @@ The classic NFT collection format.
 * Whitelist support
 * Reveal mechanics (optional)
 
-## Light Mints
-
-A new, cost-effective option for smaller creators.
-
-**Best for:**
-
-* First-time creators
-* Smaller collections
-* Testing the waters
-
-**Features:**
-
-* Lower upfront costs
-* Simplified setup
-* Same Marketplace features once minted
-
-
-
 ## Open Editions
 
 Unlimited or time-limited minting.
