@@ -1,6 +1,6 @@
 # Configure Collection and Minting Details
 
-### ollection and Minting Details
+### Collection and Minting Details
 
 Now that the assets and metadata are ready, you need to decide on the collection and minting details. These are the essential information related to your collection, we suggest you double-check them as some of them are not changeable after the collection is published.
 
