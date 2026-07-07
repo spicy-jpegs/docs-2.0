@@ -44,14 +44,17 @@
 ## Studio 2.0
 
 * [Stargaze Studio 2.0](studio/README.md)
+* [Before You Start](studio/before-you-start.md)
 * [Getting Started](studio/getting-started.md)
 * [What is Arweave?](studio/what-is-arweave.md)
 * [Creating a Collection](studio/creating-a-collection.md)
 * [Whitelists](studio/whitelists.md)
 * [Managing Your Collection](studio/managing-your-collection.md)
+* [Launch Day & Beyond](studio/launch-and-beyond.md)
+* [Costs & Fees](studio/costs-and-fees.md)
 * [Creator Tools](studio/creator-tools.md)
 * [Developer Tools](studio/developer-tools.md)
-* [Costs & Fees](studio/costs-and-fees.md)
+* [Guidelines](studio/guidelines.md)
 * [FAQ & Troubleshooting](studio/faq.md)
 
 ## Names

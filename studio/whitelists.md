@@ -1,6 +1,6 @@
 # Whitelists
 
-A whitelist (allowlist) lets a specific set of wallets mint before — or on better terms than — the public. Studio 2.0 supports **multi-phase** whitelists, so you can run, say, a free team phase, then a discounted community phase, then the public mint, each with its own price, timing, and wallet list.
+A whitelist (allowlist) lets a specific set of wallets mint before — or on better terms than — the public. Studio 2.0 supports **multi-phase** whitelists, so you can run, say, a free early-supporter phase, then a discounted community phase, then the public mint, each with its own price, timing, and wallet list.
 
 <figure><img src="../.gitbook/assets/studio2-whitelists.png" alt="Whitelist manager in Studio 2.0"><figcaption>The Whitelist manager: preview and export members, configure phases, and set a whitelist on a collection.</figcaption></figure>
 

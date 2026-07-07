@@ -27,7 +27,11 @@ Depending on the collection type, the manager lets you:
 
 <figure><img src="../.gitbook/assets/studio2-royalties.png" alt="Royalties manager in Studio 2.0"><figcaption>Set or update your secondary-sale royalty and payout address.</figcaption></figure>
 
-Set the percentage you earn on secondary sales and the address it's paid to. You can update these later from [Royalties](https://studio.stargaze.zone/manage/royalties).
+Set the percentage you earn on secondary sales and the address it's paid to — a single wallet, a multisig, or a split. Your royalty is paid automatically to that address on every resale. A common range is **2–5%**: high enough to earn, low enough that it doesn't discourage trading. You can update it later from [Royalties](https://studio.stargaze.zone/manage/royalties).
+
+{% hint style="warning" %}
+**Renew your royalties every year.** Stargaze reduces a collection's royalties to 0% if the creator doesn't stay active. To keep them enforced, renew your creator activity once a year from the [Royalties](https://studio.stargaze.zone/manage/royalties) manager in Studio.
+{% endhint %}
 
 ## Update metadata
 

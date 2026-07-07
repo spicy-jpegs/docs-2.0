@@ -1,6 +1,6 @@
 # Creating a Collection
 
-Studio 2.0 supports five kinds of drops. They all share the same guided flow — you fill in details, upload art, set your mint rules, and launch — but each is tuned for a different kind of collection. Pick the one that matches what you're building.
+Studio 2.0 supports four kinds of collections. They all share the same guided flow — you fill in details, upload art, set your mint rules, and launch — but each is tuned for a different kind of collection. Pick the one that matches what you're building.
 
 ## The create flow
 
@@ -19,6 +19,10 @@ Your work **autosaves locally as a draft**, and you can **Download** or **Import
 
 {% hint style="info" %}
 All times use a **UTC / local toggle**. Times shown in your local zone are labelled "(local time)" so there's never any ambiguity about when your mint opens.
+{% endhint %}
+
+{% hint style="info" %}
+**One NFT standard underneath.** Every collection type uses the **CW721** standard on Cosmos Hub, so they all work with the Stargaze marketplace, support on-chain creator royalties, and can move across chains over IBC. What changes between types is the minting mechanics — not the underlying NFT.
 {% endhint %}
 
 ## Collection types
@@ -46,14 +50,6 @@ For one-of-a-kind pieces, each with its own image and metadata. You create the c
 Unlike Vending and Open Edition drops, a 1/1 collection has **no launchpad or public mint page**. Each piece is minted **directly to your own wallet** as you add it. From there, you can **list it for sale on the Stargaze marketplace**, or transfer or airdrop it to someone — it's yours to do with as you like.
 
 [Create a 1/1 collection →](https://studio.stargaze.zone/collections/base/create)
-
-### Dynamic / Generative HTML
-
-<figure><img src="../.gitbook/assets/studio2-dynamic-uploader.png" alt="Dynamic HTML uploader in Studio 2.0"><figcaption>Dynamic collections render live, code-based art (p5.js, canvas, WebGL).</figcaption></figure>
-
-For interactive, code-based art that renders live in the browser (p5.js, canvas, WebGL). The Uploader's **Dynamic** flow rehosts your art's shared libraries and assets permanently on Arweave and rewires the references so each piece renders forever.
-
-[Open the Dynamic uploader →](https://studio.stargaze.zone/uploader?tab=dynamic)
 
 ### Badges
 

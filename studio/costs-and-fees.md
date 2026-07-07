@@ -33,6 +33,13 @@ Because permanent storage is priced by size, the best way to lower it is to **sh
 
 There are **none** for storage — that's the whole point of Arweave. You pay once and your art is kept permanently, with no monthly bills or renewals. After launch, you only pay small network gas fees when you take an action in the [Collection Manager](managing-your-collection.md) (updating price, airdropping, withdrawing, etc.).
 
+## What you earn
+
+* **When people mint:** you receive the **mint price** for each NFT (minters also pay a small gas fee to the network).
+* **When holders resell:** secondary sales on the Stargaze marketplace include a **2% marketplace fee** plus your **creator royalty**, both paid by the seller. Your royalty lands in your royalty wallet automatically — no action needed.
+
+See [Fees](../collect/fees.md) for the complete buyer/seller fee schedule, and [Managing Your Collection](managing-your-collection.md) to set your royalty.
+
 ## A note on mint tokens
 
 Your collection can be minted in **ATOM or STARS** — you choose. Note that this is separate from the fees above: creation fees, storage, whitelist deployment, and gas are always paid in **ATOM** by the network, even if your collection is minted in STARS.

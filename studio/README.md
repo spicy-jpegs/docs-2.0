@@ -23,12 +23,11 @@ New to Arweave? [What is Arweave?](what-is-arweave.md) explains how Studio 2.0 s
 | **PFP / Generative** | Large profile-picture drops built from layered traits (e.g. 1,000–10,000 pieces) |
 | **Open Edition** | Unlimited (or time-boxed) mints of a single artwork |
 | **1/1** | A single, one-of-a-kind piece |
-| **Dynamic / Generative HTML** | Interactive, code-based art (p5.js, canvas, WebGL) that renders live |
 
 ## The tools inside Studio 2.0
 
 **Create**
-* [Create a Collection](creating-a-collection.md) — the four collection types above
+* [Create a Collection](creating-a-collection.md) — the collection types above
 * [Whitelists](whitelists.md) — allowlist phases, presale pricing, holder snapshots
 
 **Manage**
@@ -46,4 +45,4 @@ New to Arweave? [What is Arweave?](what-is-arweave.md) explains how Studio 2.0 s
 2. Connect your wallet (Keplr)
 3. Pick a collection type and build it — every collection launches on testnet first, then promotes to mainnet
 
-Head to [Getting Started](getting-started.md) for the full walkthrough, including the testnet-first workflow and what you'll pay.
+New to this? Start with [Before You Start](before-you-start.md) to prepare your artwork and plan, then [Getting Started](getting-started.md) for the full walkthrough — including the testnet-first workflow and what you'll pay.

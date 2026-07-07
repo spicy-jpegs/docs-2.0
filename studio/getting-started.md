@@ -39,6 +39,6 @@ Everything is shown live in the app before you confirm. See [Costs & Fees](costs
 
 ## Next steps
 
-* [Create a Collection](creating-a-collection.md) — the four collection types, step by step
+* [Create a Collection](creating-a-collection.md) — the collection types, step by step
 * [Whitelists](whitelists.md) — allowlist phases and presale pricing
 * [Manage Your Collection](managing-your-collection.md) — everything you can change after launch
