@@ -22,7 +22,7 @@ All times use a **UTC / local toggle**. Times shown in your local zone are label
 {% endhint %}
 
 {% hint style="info" %}
-**One NFT standard underneath.** Every collection type uses the **CW721** standard on Cosmos Hub, so they all work with the Stargaze marketplace, support on-chain creator royalties, and can move across chains over IBC. What changes between types is the minting mechanics — not the underlying NFT.
+**One NFT standard underneath.** Every collection type uses the **CW721** standard on Cosmos Hub, so they all work with the Stargaze marketplace and support on-chain creator royalties. What changes between types is the minting mechanics — not the underlying NFT.
 {% endhint %}
 
 ## Collection types
