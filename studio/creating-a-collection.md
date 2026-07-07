@@ -41,7 +41,9 @@ A single artwork minted as many times as you want, usually within a time window.
 
 <figure><img src="../.gitbook/assets/studio2-base-create.png" alt="New 1/1 collection in Studio 2.0"><figcaption>1/1 — curated single-edition art, each token with its own image and metadata.</figcaption></figure>
 
-For one-of-a-kind pieces. Create the collection, then add individual 1/1 tokens, each with its own image and metadata.
+For one-of-a-kind pieces, each with its own image and metadata. You create the collection, then add your 1/1 tokens to it — one at a time or as a batch.
+
+Unlike Vending and Open Edition drops, a 1/1 collection has **no launchpad or public mint page**. Each piece is minted **directly to your own wallet** as you add it. From there, you can **list it for sale on the Stargaze marketplace**, or transfer or airdrop it to someone — it's yours to do with as you like.
 
 [Create a 1/1 collection →](https://studio.stargaze.zone/collections/base/create)
 
