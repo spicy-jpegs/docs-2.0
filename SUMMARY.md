@@ -25,7 +25,7 @@
 * [Notifications\*\*](collect/notifications.md)
 * [Fees](collect/fees.md)
 
-## Studio 2.0
+## Create and Launch
 
 * [Stargaze Studio 2.0](studio/README.md)
 * [Before You Start](studio/before-you-start.md)
