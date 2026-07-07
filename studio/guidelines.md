@@ -32,6 +32,15 @@ Notable collections may be verified with a **blue checkmark**, which adds visibi
 * **Price fairly** — research comparable collections, don't overprice the initial mint, and leave room for secondary growth.
 * **Build genuine community** — engage before, during, and after launch, and deliver on what you promise.
 
+## Staying safe
+
+Scammers and impersonators are common in NFT communities. Protect yourself:
+
+* The **Stargaze team will never DM you first** — on Discord or anywhere else.
+* Don't click links sent by strangers, and don't trust anyone who messages you claiming to be Stargaze support.
+* Only use official links — start from [studio.stargaze.zone](https://studio.stargaze.zone) and the official Stargaze Discord.
+* **Never share your seed phrase or private keys** with anyone, for any reason.
+
 ## Reporting
 
 See something wrong? Use the **Report** button on any collection, or contact moderation via the Stargaze **Discord**.

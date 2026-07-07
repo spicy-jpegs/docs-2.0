@@ -32,6 +32,10 @@ The information attached to each NFT:
 
 No spreadsheets required — the [NFT Generator](creator-tools.md) and [Meta Maker](creator-tools.md) can build metadata for you.
 
+{% hint style="info" %}
+**Bringing your own files?** If you're not using the built-in generators, name your files as plain sequential numbers — `1.png`, `2.png`, `3.png` (numbers only; something like `1-punk.png` won't work). Each image needs a matching metadata file with the same number (`1.png` ↔ `1.json`), and images and metadata go in separate folders. The generators handle all of this for you automatically.
+{% endhint %}
+
 ### 3. Some ATOM
 
 You'll need ATOM for permanent storage, the collection-creation fee, and gas. The app shows the exact amounts before you confirm — and you can rehearse the entire process on **testnet for free** first. See [Costs & Fees](costs-and-fees.md).

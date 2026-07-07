@@ -6,3 +6,16 @@ structure:
 
 redirects:
   create/using-stargaze-studio: studio/README.md
+  create/before-you-start: studio/before-you-start.md
+  create/collection-types: studio/creating-a-collection.md
+  create/launch-and-beyond: studio/launch-and-beyond.md
+  create/royalties-and-fees: studio/costs-and-fees.md
+  create/guidelines: studio/guidelines.md
+  create/stargaze-studio: studio/README.md
+  create/stargaze-studio/create-an-nft-collection: studio/creating-a-collection.md
+  create/stargaze-studio/create-an-nft-collection/upload-assets-and-metadata: studio/creating-a-collection.md
+  create/stargaze-studio/create-an-nft-collection/configure-collection-and-minting-details: studio/creating-a-collection.md
+  create/stargaze-studio/create-an-nft-collection/whitelist-and-royalty-options: studio/whitelists.md
+  create/stargaze-studio/standard-collections: studio/creating-a-collection.md
+  create/stargaze-studio/open-edition-and-limited-edition-collections: studio/creating-a-collection.md
+  create/stargaze-studio/1-1-collections: studio/creating-a-collection.md

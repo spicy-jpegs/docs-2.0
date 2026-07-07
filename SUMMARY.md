@@ -25,22 +25,6 @@
 * [Notifications\*\*](collect/notifications.md)
 * [Fees](collect/fees.md)
 
-## Create
-
-* [Before You Start](create/before-you-start.md)
-* [Collection Types](create/collection-types.md)
-* [Stargaze Studio](create/stargaze-studio/README.md)
-  * [Create an NFT Collection](create/stargaze-studio/create-an-nft-collection/README.md)
-    * [Upload Assets and Metadata](create/stargaze-studio/create-an-nft-collection/upload-assets-and-metadata.md)
-    * [Configure Collection and Minting Details](create/stargaze-studio/create-an-nft-collection/configure-collection-and-minting-details.md)
-    * [Whitelist and Royalty Options](create/stargaze-studio/create-an-nft-collection/whitelist-and-royalty-options.md)
-  * [Standard Collections](create/stargaze-studio/standard-collections.md)
-  * [Open Edition & Limited Edition Collections](create/stargaze-studio/open-edition-and-limited-edition-collections.md)
-  * [1/1 Collections](create/stargaze-studio/1-1-collections.md)
-* [Launch & Beyond](create/launch-and-beyond.md)
-* [Royalties & Fees](create/royalties-and-fees.md)
-* [Guidelines](create/guidelines.md)
-
 ## Studio 2.0
 
 * [Stargaze Studio 2.0](studio/README.md)

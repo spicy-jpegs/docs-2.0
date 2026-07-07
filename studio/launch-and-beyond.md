@@ -25,7 +25,7 @@ Once minted, your NFTs trade on the **Stargaze marketplace**:
 * Keep an eye on floor price, volume, and holder distribution to gauge your collection's health
 
 {% hint style="warning" %}
-**Renew your royalties every year.** Stargaze drops a collection's royalties to 0% if the creator doesn't stay active. Keep them enforced by renewing your creator activity once a year from the [Royalties manager](managing-your-collection.md) in Studio.
+**Renew your royalties every year.** A collection's royalties are reduced to 0% if the creator doesn't stay active. Keep them enforced by renewing your creator activity once a year from the [Royalties manager](managing-your-collection.md) in Studio.
 {% endhint %}
 
 ## Rewarding holders

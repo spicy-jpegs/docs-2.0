@@ -30,14 +30,14 @@ Depending on the collection type, the manager lets you:
 Set the percentage you earn on secondary sales and the address it's paid to — a single wallet, a multisig, or a split. Your royalty is paid automatically to that address on every resale. A common range is **2–5%**: high enough to earn, low enough that it doesn't discourage trading. You can update it later from [Royalties](https://studio.stargaze.zone/manage/royalties).
 
 {% hint style="warning" %}
-**Renew your royalties every year.** Stargaze reduces a collection's royalties to 0% if the creator doesn't stay active. To keep them enforced, renew your creator activity once a year from the [Royalties](https://studio.stargaze.zone/manage/royalties) manager in Studio.
+**Renew your royalties every year.** A collection's royalties are reduced to 0% if the creator doesn't stay active. To keep them enforced, renew your creator activity once a year from the [Royalties](https://studio.stargaze.zone/manage/royalties) manager in Studio.
 {% endhint %}
 
 ## Update metadata
 
-<figure><img src="../.gitbook/assets/studio2-metadata.png" alt="Update metadata in Studio 2.0"><figcaption>Edit collection-level info and, where allowed, individual token metadata.</figcaption></figure>
+<figure><img src="../.gitbook/assets/studio2-metadata.png" alt="Update metadata in Studio 2.0"><figcaption>Update the metadata of individual tokens in your collection.</figcaption></figure>
 
-Edit your collection's name, description, cover, banner, and links — and, for collections that allow it, update individual token metadata. From [Update Metadata](https://studio.stargaze.zone/manage/metadata) you can also permanently **freeze** metadata to guarantee it can never change again.
+Update the metadata of individual **tokens** in your collection — the pointer to each token's image, name, and traits. From [Update Metadata](https://studio.stargaze.zone/manage/metadata) you can also permanently **freeze** a token's metadata so it can never change again.
 
 ## What can't be changed
 
