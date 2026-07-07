@@ -60,4 +60,4 @@ Before you launch, decide:
 
 ## Ready?
 
-Once your artwork, metadata, and plan are set, head to [Getting Started](getting-started.md) to connect your wallet and rehearse on testnet.
+Once your artwork, metadata, and plan are set, head to [Creating a Collection](creating-a-collection.md) to build and launch your first drop.

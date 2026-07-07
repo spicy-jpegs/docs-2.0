@@ -65,4 +65,4 @@ The result: permanent Arweave storage, paid for with Cosmos-native ATOM, in a si
 
 Arweave storage is always permanent — there's no throwaway "test" version. So the art you upload while rehearsing your collection on the Cosmos Hub testnet is the **same** art your mainnet collection uses. You pay to store it once, and when you promote from testnet to mainnet, Studio reuses those exact uploads with no second storage charge.
 
-Next: [Getting Started](getting-started.md) →
+Next: [Creating a Collection](creating-a-collection.md) →

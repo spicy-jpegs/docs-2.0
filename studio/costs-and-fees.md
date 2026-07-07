@@ -47,4 +47,4 @@ Your collection can be minted in **ATOM or STARS** — you choose. Note that thi
 ## Next steps
 
 * [What is Arweave?](what-is-arweave.md) — why storage is pay-once
-* [Getting Started](getting-started.md) — the testnet-first workflow
+* [Creating a Collection](creating-a-collection.md) — build and launch your collection

@@ -24,25 +24,32 @@ New to Arweave? [What is Arweave?](what-is-arweave.md) explains how Studio 2.0 s
 | **Open Edition** | Unlimited (or time-boxed) mints of a single artwork |
 | **1/1** | A single, one-of-a-kind piece |
 
-## The tools inside Studio 2.0
+## Testnet first, then mainnet
 
-**Create**
-* [Create a Collection](creating-a-collection.md) — the collection types above
-* [Whitelists](whitelists.md) — allowlist phases, presale pricing, holder snapshots
-
-**Manage**
-* [Manage Your Collection](managing-your-collection.md) — update pricing, timing, royalties, and metadata after launch
-
-**Creator tools**
-* [Creator Tools](creator-tools.md) — the art generator, metadata builder, and holder-snapshot exporter
-
-**Developer tools**
-* [Developer Tools](developer-tools.md) — contract console, token factory, oracle, authz, and badges
+The golden rule: **rehearse on testnet, then promote to mainnet.** The on-chain steps — creating the collection, minting, whitelists — are free to practice on the Cosmos Hub testnet. Storage works differently: Arweave has no testnet, so your art and metadata upload to permanent storage for real, once — and those same files carry straight to mainnet.
 
 ## Get started
 
-1. Open [studio.stargaze.zone](https://studio.stargaze.zone)
-2. Connect your wallet (Keplr)
-3. Pick a collection type and build it — every collection launches on testnet first, then promotes to mainnet
+1. Open [studio.stargaze.zone](https://studio.stargaze.zone).
+2. **Connect your wallet** — click **Connect Wallet** (top right) and connect **Keplr**, your normal Cosmos wallet. Studio never holds your keys; you approve each action as you go.
+3. **Rehearse on testnet** — pick a collection type, build it exactly as you want, and launch it on testnet. You don't need to find testnet ATOM; while you're creating a collection, the app tops up your testnet balance automatically every 24 hours. Preview the drop and walk the pre-launch checklist.
+4. **Promote to mainnet** — when it looks right, use **Launch on Mainnet** to publish the same collection to Cosmos Hub mainnet in one step. Studio reuses your Arweave uploads, with no second storage charge.
 
-New to this? Start with [Before You Start](before-you-start.md) to prepare your artwork and plan, then [Getting Started](getting-started.md) for the full walkthrough — including the testnet-first workflow and what you'll pay.
+{% hint style="info" %}
+**Storage is the exception to "testnet is free."** Arweave has no testnet, so uploading your art and metadata stores them permanently — for real — even during a testnet rehearsal. The upside: you pay for storage only once, and those exact files are reused on mainnet. See [What is Arweave?](what-is-arweave.md)
+{% endhint %}
+
+## What you'll pay
+
+* **On-chain testnet fees:** free — the app tops up your testnet ATOM automatically.
+* **Storage (Arweave):** a one-time fee when your files upload, priced by total file size and never charged again — there's no Arweave testnet.
+* **On-chain mainnet fees:** the collection-creation fee (varies by type and size) plus network gas, in real ATOM.
+
+Everything is shown live in the app before you confirm. Full breakdown in [Costs & Fees](costs-and-fees.md).
+
+## Where to go next
+
+* [Before You Start](before-you-start.md) — prepare your artwork, metadata, and plan
+* [Creating a Collection](creating-a-collection.md) — the collection types, step by step
+* [Whitelists](whitelists.md) · [Managing Your Collection](managing-your-collection.md) · [Launch Day & Beyond](launch-and-beyond.md)
+* [Creator Tools](creator-tools.md) · [Developer Tools](developer-tools.md) · [Guidelines](guidelines.md)
