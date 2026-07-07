@@ -3,7 +3,7 @@
 Stargaze Studio 2.0 is the all-in-one tool for creating, launching, and managing NFT collections on Stargaze — no coding required. It's a ground-up rebuild of the original Studio, with **permanent, pay-once storage on Arweave** built in from the start.
 
 {% hint style="info" %}
-New to permanent storage? Read [What is Arweave?](what-is-arweave.md) — it's the one thing that makes Studio 2.0 different from every other launch tool.
+New to Arweave? [What is Arweave?](what-is-arweave.md) explains how Studio 2.0 stores your art and metadata permanently.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/studio2-home.png" alt="Stargaze Studio 2.0 home screen"><figcaption>The Studio 2.0 home screen — creation flows, creator tools, and the collection manager in one place.</figcaption></figure>
