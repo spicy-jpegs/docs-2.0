@@ -44,6 +44,6 @@ New to Arweave? [What is Arweave?](what-is-arweave.md) explains how Studio 2.0 s
 
 1. Open [studio.stargaze.zone](https://studio.stargaze.zone)
 2. Connect your wallet (Keplr or Leap)
-3. Pick a collection type — or practice on testnet first
+3. Pick a collection type and build it — every collection launches on testnet first, then promotes to mainnet
 
 Head to [Getting Started](getting-started.md) for the full walkthrough, including the testnet-first workflow and what you'll pay.
