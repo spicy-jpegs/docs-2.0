@@ -37,10 +37,22 @@
   * [Standard Collections](create/stargaze-studio/standard-collections.md)
   * [Open Edition & Limited Edition Collections](create/stargaze-studio/open-edition-and-limited-edition-collections.md)
   * [1/1 Collections](create/stargaze-studio/1-1-collections.md)
-* [Using Stargaze Studio\*\*\*](create/using-stargaze-studio.md)
 * [Launch & Beyond](create/launch-and-beyond.md)
 * [Royalties & Fees](create/royalties-and-fees.md)
 * [Guidelines](create/guidelines.md)
+
+## Studio 2.0
+
+* [Stargaze Studio 2.0](studio/README.md)
+* [Getting Started](studio/getting-started.md)
+* [What is Arweave?](studio/what-is-arweave.md)
+* [Creating a Collection](studio/creating-a-collection.md)
+* [Whitelists](studio/whitelists.md)
+* [Managing Your Collection](studio/managing-your-collection.md)
+* [Creator Tools](studio/creator-tools.md)
+* [Developer Tools](studio/developer-tools.md)
+* [Costs & Fees](studio/costs-and-fees.md)
+* [FAQ & Troubleshooting](studio/faq.md)
 
 ## Names
 
