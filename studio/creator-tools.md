@@ -14,7 +14,7 @@ Build a full generative collection from a folder of trait layers. Set rarity wei
 
 <figure><img src="../.gitbook/assets/studio2-meta-maker.png" alt="Meta Maker in Studio 2.0"><figcaption>Generate CW721 / Stargaze-compliant metadata JSON without hand-editing files.</figcaption></figure>
 
-Generate correctly-formatted metadata JSON without touching a text editor. Modes include a single repeated template, a custom list (paste names or a CSV), batches with their own traits, and weighted-random combinations. Output drops straight into the Vending uploader.
+Generate correctly-formatted metadata JSON without touching a text editor. Modes include a single repeated template, a custom list (paste names or a CSV), batches with their own traits, and weighted-random combinations. It exports the metadata as a set of numbered JSON files you can use for your collection.
 
 [Open Meta Maker →](https://studio.stargaze.zone/meta-maker)
 
@@ -38,7 +38,7 @@ Export a holder or owner list from any Cosmos Hub collection as a CSV — the fo
 
 <figure><img src="../.gitbook/assets/studio2-uploader.png" alt="Arweave Uploader in Studio 2.0"><figcaption>Permanently store a large collection on Arweave with your own credit, then launch.</figcaption></figure>
 
-For large or advanced uploads (including collections over 1 GB and the Dynamic HTML flow), the Uploader stores your files permanently on Arweave and gives you back the permanent addresses to launch with. See [Creating a Collection → Dynamic](creating-a-collection.md) for the generative-HTML workflow.
+For large or advanced uploads (including collections over 1 GB), the Uploader stores your files permanently on Arweave and gives you back the permanent addresses to launch with.
 
 [Open the Uploader →](https://studio.stargaze.zone/uploader)
 
