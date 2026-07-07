@@ -35,7 +35,7 @@ There are **none** for storage — that's the whole point of Arweave. You pay on
 
 ## What you earn
 
-* **When people mint:** you receive the **mint price** for each NFT (minters also pay a small gas fee to the network).
+* **When people mint:** you receive the **mint price minus Stargaze's 8% platform fee** — so about 92% of each mint. (For example, on a 10 ATOM mint you'd receive ~9.2 ATOM.) Minters also pay a small gas fee to the network.
 * **When holders resell:** secondary sales on the Stargaze marketplace include a **2% marketplace fee** plus your **creator royalty**, both paid by the seller. Your royalty lands in your royalty wallet automatically — no action needed.
 
 See [Fees](../collect/fees.md) for the complete buyer/seller fee schedule, and [Managing Your Collection](managing-your-collection.md) to set your royalty.
