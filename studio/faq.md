@@ -10,13 +10,13 @@ It stores your art and metadata **permanently on Arweave** — pay once, kept fo
 **Do I need to know how to code?**
 No. The creation and management flows are fully guided. The [Developer Tools](developer-tools.md) are optional extras for advanced users.
 
-**Which wallets are supported?**
-Keplr and Leap.
+**Which wallet do I need?**
+Keplr — your normal Cosmos wallet, the same one you use to collect on Stargaze.
 
 ## Testnet & mainnet
 
 **Do I have to use testnet?**
-It's strongly recommended. Testnet is free and lets you get everything right before spending real money. When it looks good, promote the same collection to mainnet.
+It's strongly recommended. You rehearse the on-chain steps for free on testnet — the app tops up your testnet ATOM automatically — so you can get everything right before going live. Storage is the exception: Arweave has no testnet, so that upload is real and permanent, but you pay for it once and it carries over to mainnet.
 
 **If I test on testnet, do I re-upload for mainnet?**
 No. Your Arweave files are permanent and network-agnostic, so mainnet reuses the exact files from testnet. You only pay the on-chain creation fee and gas to go live — never a second storage charge.

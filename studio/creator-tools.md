@@ -22,7 +22,7 @@ Generate correctly-formatted metadata JSON without touching a text editor. Modes
 
 <figure><img src="../.gitbook/assets/studio2-resizer.png" alt="Image and Video Resizer in Studio 2.0"><figcaption>Compress images and video before paying for permanent storage.</figcaption></figure>
 
-Compress your images (to WebP) and video (to MP4) before you upload. Because Arweave storage is priced by file size, shrinking your files first is the simplest way to keep your permanent-storage cost low — often just cents for a whole collection.
+Compress your images (to WebP) and video (to MP4) before you upload. Because Arweave storage is priced by total file size, shrinking your files first is the simplest way to lower your permanent-storage cost — often significantly.
 
 [Open the Resizer →](https://studio.stargaze.zone/resizer)
 

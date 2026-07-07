@@ -10,9 +10,9 @@ New to Arweave? [What is Arweave?](what-is-arweave.md) explains how Studio 2.0 s
 
 ## What's new in 2.0
 
-* **Permanent Arweave storage** — your art and metadata are stored once and kept forever. No monthly pinning, no link rot, no disappearing images.
+* **Permanent Arweave storage** — your art and metadata are stored once and kept forever, with no monthly pinning fees and nothing to renew.
 * **Pay in ATOM** — storage is quoted and paid in Cosmos-native ATOM, right in the app. No credit cards, no separate storage account.
-* **Launch on testnet, promote to mainnet** — build and preview your entire collection for free on testnet, then go live on mainnet without re-uploading a single file.
+* **Launch on testnet, promote to mainnet** — rehearse the on-chain steps for free on testnet, then go live on mainnet without re-uploading. Your art is stored permanently on Arweave once and reused on both.
 * **A full collection manager** — edit prices, mint times, whitelists, royalties, and metadata after launch.
 * **Built-in creator tools** — generate art, build metadata, and snapshot holders without leaving Studio.
 
@@ -43,7 +43,7 @@ New to Arweave? [What is Arweave?](what-is-arweave.md) explains how Studio 2.0 s
 ## Get started
 
 1. Open [studio.stargaze.zone](https://studio.stargaze.zone)
-2. Connect your wallet (Keplr or Leap)
+2. Connect your wallet (Keplr)
 3. Pick a collection type and build it — every collection launches on testnet first, then promotes to mainnet
 
 Head to [Getting Started](getting-started.md) for the full walkthrough, including the testnet-first workflow and what you'll pay.

@@ -11,21 +11,20 @@ An NFT is really two parts:
 1. **The token** — an entry on the blockchain that says who owns it. This lives on Stargaze forever.
 2. **The artwork and metadata** — the image, animation, name, and traits. These are usually stored *off-chain*, and the token just points to them.
 
-If that off-chain storage goes away, your NFT still exists on-chain — but the picture is gone. This is the "broken image" problem you've probably seen on older collections.
+If that off-chain storage ever becomes unavailable, the token still exists on-chain — but the artwork it points to can't load. Permanent storage removes that risk entirely: your art is guaranteed to stay exactly where it is, for good.
 
-{% hint style="warning" %}
-An NFT is only as permanent as the place its art is stored. If the storage disappears, so does the image — even though the token itself is safe on-chain.
+{% hint style="info" %}
+An NFT is only as permanent as the place its art is stored. Arweave makes that place permanent by design.
 {% endhint %}
 
 ## Arweave vs. IPFS pinning
 
-The original Studio used **IPFS**, which stores files as long as someone keeps "pinning" them. Pinning is an ongoing job — usually a paid service — and if the pin lapses, the file can become unreachable.
+Another common way to store NFT files is **IPFS**, which keeps files available only as long as someone keeps "pinning" them. Pinning is an ongoing job — usually a paid service — so it depends on that service continuing. Studio 2.0 uses Arweave instead: you pay once, and there's nothing to keep renewing or maintaining.
 
-| | IPFS (old Studio) | Arweave (Studio 2.0) |
+| | IPFS pinning | Arweave (Studio 2.0) |
 |---|---|---|
 | **How long it's stored** | As long as it's actively pinned | Permanently, guaranteed at upload |
-| **Ongoing cost** | Monthly pinning fees | None — pay once |
-| **Risk of link rot** | Yes, if pinning stops | No |
+| **Ongoing cost** | Recurring pinning fees | None — pay once |
 | **What you pay** | Subscription to a pinning service | A one-time fee in ATOM, shown up front |
 
 ## What an `ar://` link is
@@ -33,7 +32,7 @@ The original Studio used **IPFS**, which stores files as long as someone keeps "
 When Studio 2.0 uploads your files, each one gets a permanent address that looks like this:
 
 ```
-ar://GRYCsHU7yF5jJ0P9K1e1Yb... 
+ar://GRYCsHU7yF5jJ0P9K1e1Yb...
 ```
 
 That `ar://` address is baked into your collection's on-chain records. Anyone — Stargaze, a marketplace, or a wallet — can resolve it through any Arweave gateway to load your art. Because the address is permanent and content-addressed, the file it points to can never be swapped or lost.
@@ -42,16 +41,16 @@ That `ar://` address is baked into your collection's on-chain records. Anyone �
 
 You don't need an Arweave account or a separate wallet. Studio 2.0 handles it for you:
 
-1. Studio calculates the exact storage cost based on your files' size and shows it **before** you upload.
+1. Studio calculates the exact storage cost from your files' total size and shows it **before** you upload.
 2. You pay that amount in **ATOM**, signed from your normal Stargaze wallet.
 3. Studio uploads your files to Arweave and writes the permanent `ar://` addresses into your collection.
 
 {% hint style="info" %}
-**Tip:** smaller files cost less to store forever. Resizing images and using efficient formats (like WebP) before you upload keeps your storage cost low — often just a few cents for a whole collection.
+**Storage is priced by size.** Arweave charges by how much data you store (a set rate per gigabyte), so a small, well-optimized collection is inexpensive while a large one with heavy media costs more. Run your files through the built-in [Resizer](creator-tools.md) first to bring the size — and the cost — down.
 {% endhint %}
 
-## Testnet and mainnet share the same files
+## Arweave has no testnet
 
-Because an `ar://` address is permanent and network-agnostic, files you upload while testing on testnet are the **same files** you use on mainnet. When you promote a collection from testnet to mainnet, Studio reuses those uploads — you don't pay to store them twice.
+Arweave storage is always permanent — there's no throwaway "test" version. So the art you upload while rehearsing your collection on the Cosmos Hub testnet is the **same** art your mainnet collection uses. You pay to store it once, and when you promote from testnet to mainnet, Studio reuses those exact uploads with no second storage charge.
 
 Next: [Getting Started](getting-started.md) →
