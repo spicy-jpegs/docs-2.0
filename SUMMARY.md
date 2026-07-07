@@ -27,8 +27,8 @@
 
 ## Create and Launch
 
-* [Stargaze Studio 2.0](studio/README.md)
 * [Before You Start](studio/before-you-start.md)
+* [Stargaze Studio 2.0](studio/README.md)
 * [What is Arweave?](studio/what-is-arweave.md)
 * [Costs & Fees](studio/costs-and-fees.md)
 * [Creating a Collection](studio/creating-a-collection.md)
