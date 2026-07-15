@@ -1,6 +1,6 @@
 # Creating a Collection
 
-Studio 2.0 supports four kinds of collections. They all share the same guided flow — you fill in details, upload art, set your mint rules, and launch — but each is tuned for a different kind of collection. Pick the one that matches what you're building.
+Studio 2.0 supports three kinds of collections. They all share the same guided flow — you fill in details, upload art, set your mint rules, and launch — but each is tuned for a different kind of collection. Pick the one that matches what you're building.
 
 ## The create flow
 
@@ -50,14 +50,6 @@ For one-of-a-kind pieces, each with its own image and metadata. You create the c
 Unlike Vending and Open Edition drops, a 1/1 collection has **no launchpad or public mint page**. Each piece is minted **directly to your own wallet** as you add it. From there, you can **list it for sale on the Stargaze marketplace**, or transfer or airdrop it to someone — it's yours to do with as you like.
 
 [Create a 1/1 collection →](https://studio.stargaze.zone/collections/base/create)
-
-### Badges
-
-<figure><img src="../.gitbook/assets/studio2-badges.png" alt="Create a Badge in Studio 2.0"><figcaption>Badges — soulbound recognition NFTs for communities, events, and contributors.</figcaption></figure>
-
-Soulbound (non-transferable) NFTs for recognition — event attendance, community roles, contributions. Choose how they're claimed: open mint, allowlist, or signed claim keys.
-
-[Create a Badge →](https://studio.stargaze.zone/badges/create)
 
 ## Next steps
 
