@@ -37,6 +37,10 @@ Stargaze operates on the Cosmos Hub. For general Cosmos development:
 - [CosmWasm Documentation](https://docs.cosmwasm.com)
 - [CW721 Spec](https://github.com/CosmWasm/cw-nfts)
 
+## Stargaze Names
+
+Names are CW721 NFTs with an address resolver and a fixed-term lease, and everything about them is queryable on-chain without an API key. See [Integrating Names](../names/integrating-names.md) for contract addresses, forward and reverse resolution, the lease state machine, and indexing notes.
+
 ## API Access
 
 Stargaze APIs and indexer access are not publicly available. For integration partnerships, contact the team via Discord.

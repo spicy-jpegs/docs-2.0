@@ -1,78 +1,72 @@
----
-hidden: true
----
-
 # What is a Stargaze Name?
 
-Stargaze Names are human-readable identities for your Cosmos address.
+A **Stargaze Name** is a short, human-readable identity for your Cosmos Hub wallet.
 
-## The Problem
-
-Cosmos addresses look like this:
+Instead of this:
 
 ```
-cosmos1abc123def456ghi789jkl012mno345pqr678stu
+cosmos1pq7vpw5k3ad4jlaskuhm66gjapump23zz69ut9fck2p5k5p4sq9s79da69
 ```
 
-Hard to remember, easy to make mistakes.
-
-## The Solution
-
-With a Stargaze Name, your address becomes:
+people see this:
 
 ```
-starty.stars
+@starty
 ```
 
-Simple, memorable, yours.
+Same wallet. One is impossible to remember and easy to get wrong; the other is you.
 
-## How It Works
+## What you actually get
 
-When you register a Stargaze Name:
+Registering a name gives you four things at once:
 
-1. The name is minted as an NFT
-2. It's linked to your wallet address
-3. Others can send you funds using just your name
-4. You can trade it like any other NFT
+* **An identity.** Your name replaces your address everywhere on Stargaze — the navbar, your profile, activity feeds, notifications, search results, owner and buyer rows.
+* **A profile.** Your name carries a profile picture, a banner, and links (X, Discord, Telegram, website, EVM address). Set them once and they follow you across the site.
+* **An address it points to.** By default your own wallet — but a name can also point at a collection contract, which is how projects get a clean collection URL.
+* **An NFT.** The name *is* a CW721 NFT in your wallet. You can hold it, transfer it, list it, or auction it like any other collectible.
 
-## Features
+## The format
 
-### Identity
+Stargaze Names on the Cosmos Hub are **bare** — there is no `.stars`, `.cosmos`, or any other suffix. The name is just the word. Stargaze displays it with an `@` in front, the way a social handle is shown, but the `@` is not part of the name.
 
-* Your name across the Cosmos ecosystem
-* Display on your Stargaze profile
-* Recognizable in transactions
+| Rule | Detail |
+| --- | --- |
+| Length | 3 to 62 characters |
+| Allowed characters | lowercase letters `a–z`, digits `0–9`, and hyphens `-` |
+| Not allowed | uppercase, spaces, dots, emoji, or any other symbol |
+| Hyphens | cannot be the first or last character, and cannot sit in the 3rd and 4th position together |
 
-### Tradeable
+Names are not case-sensitive because uppercase simply isn't valid — `Starty` is rejected, `starty` is the name.
 
-* Names are NFTs
-* Buy, sell, and trade on the marketplace
-* Valuable names appreciate
+## Names are leased, not bought forever
 
-### Renewable
+This is the one thing worth understanding before you register.
 
-* Names require periodic renewal
-* Keeps namespace clean
-* Prevents squatting
+A name is registered for a **term of 1 to 10 years**, paid up front in ATOM. Before that term ends you renew it. If you never renew, the name eventually goes back to the public and someone else can take it.
 
-## Name Format
+That is deliberate. It keeps the namespace alive instead of letting it be permanently squatted by wallets that were abandoned years ago.
 
-Stargaze Names follow this format:
+Selling or transferring a name does **not** reset the clock. The buyer inherits whatever time is left on the lease and has to renew it themselves.
 
-```
-yourname.stars
-```
+See [Renewing a Name](renewals.md) for exactly how renewals, the grace period, and expiry work.
 
-* **yourname** - Your chosen identifier
-* **.stars** - The suffix
+## Where names show up on Stargaze
 
-## Use Cases
+<table><thead><tr><th width="230">Where</th><th>What you see</th></tr></thead><tbody><tr><td><strong>Names</strong> in the top navbar</td><td>Register, Trade, and My Names</td></tr><tr><td><a href="https://stargaze.zone/names">stargaze.zone/names</a></td><td>Search for a name and register it</td></tr><tr><td><a href="https://stargaze.zone/m/names">stargaze.zone/m/names</a></td><td>The Names collection on the marketplace — browse, buy, and sell names</td></tr><tr><td><code>/m/names/&lt;name&gt;</code></td><td>An individual name's page, like any other NFT</td></tr><tr><td>Profile → <strong>Names</strong> tab</td><td>Every name a wallet owns, its expiry date, and Edit / Renew buttons if it's yours</td></tr><tr><td>Your profile header</td><td>Your name as your display name, plus the profile picture and banner you set on it</td></tr><tr><td>Everywhere an address appears</td><td>Activity, notifications, search, offers, owner rows — the address is replaced by the name it resolves to</td></tr><tr><td>Collection URLs</td><td>A collection whose creator pointed a name at it gets a readable URL instead of a contract address</td></tr></tbody></table>
 
-* **Payments** - Receive ATOM to `yourname`
-* **Identity** - Be recognized in the community
-* **Investment** - Valuable names hold value
-* **Branding** - Projects and creators claim their name
+## Coming from the Stargaze chain?
 
-## Getting Started
+Names that existed on the original Stargaze chain were migrated to the Cosmos Hub for you — you don't need to re-register them. They arrived with a **one-year lease** starting from the August 2026 migration, so they will need renewing like any other name.
 
-Ready to claim your name? See [Registering a Name](registering-a-name.md).
+Check yours: open your profile, go to the **Names** tab, and look at the **Expires** column.
+
+{% hint style="info" %}
+Migrated names kept their text records where possible, but it's worth opening **Edit** once to confirm your links and profile picture are the ones you want.
+{% endhint %}
+
+## Next steps
+
+* [Registering a Name](registering-a-name.md) — check availability, pricing, and claim one
+* [Renewing a Name](renewals.md) — keep it, step by step
+* [Managing Your Name](managing-your-name.md) — profile picture, banner, links, and where it points
+* [Buying & Selling Names](buying-and-selling-names.md) — trade names on the marketplace

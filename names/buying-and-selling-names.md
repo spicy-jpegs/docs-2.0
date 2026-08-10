@@ -1,98 +1,111 @@
 # Buying & Selling Names
 
-Stargaze Names are NFTs - trade them like any other collectible.
+Names are NFTs, so they trade on Stargaze exactly like art does — listings, offers, and reserve auctions. There are two things that make names different from a normal collectible, and both are on this page.
 
-## Buying Names
+Browse them all at [stargaze.zone/m/names](https://stargaze.zone/m/names).
 
-### From the Marketplace
+## Buying a name
 
-1. Go to the Names collection on the marketplace
-2. Browse listed names or search for specific ones
-3. Click **Buy Now** on a listed name
-4. Approve the transaction
+### Buy a listed name
 
-The name transfers to your wallet instantly.
+1. Open the [Names collection](https://stargaze.zone/m/names) and find the name — use the search and the collection filters.
+2. Open the name's page and check its **expiry** (see below).
+3. Click **Buy Now** and approve the transaction.
 
-### Making Offers
+The name lands in your wallet immediately.
 
-If a name isn't listed:
+### Make an offer on any name
 
-1. Go to the name's page
-2. Click **Make Offer**
-3. Enter your offer amount
-4. Set expiration time
-5. Confirm
+A name doesn't have to be listed to receive an offer:
 
-The owner can accept, reject, or counter.
+1. Open the name's page.
+2. Click **Make Offer**, enter your amount and expiry.
+3. Confirm.
 
-### Tips for Buyers
+Your offer sits there until the owner accepts it, you cancel it, or it expires. You can see all your open offers under **Profile → Offers**.
 
-* **Research value** - Check comparable sales
-* **Consider length** - Shorter = more valuable
-* **Check expiration** - Factor in renewal costs
-* **Verify spelling** - No refunds for typos
+### Bid in an auction
 
-## Selling Names
+Some names are sold by **reserve auction** instead of a fixed price. Place a bid and it's held in escrow; if someone outbids you, you're refunded automatically.
 
-### Listing for Sale
+## Check the expiry before you buy
 
-1. Go to your profile
-2. Select the name you want to sell
-3. Click **List for Sale**
-4. Set your price
-5. Confirm the listing
+{% hint style="danger" %}
+**A name that has expired is still tradeable.** The marketplace can only see who holds the NFT — it cannot see the lease. So an expired name can be listed, bought and paid for, and then **re-registered by somebody else**, and there is no refund. Always check the expiry before you buy or bid.
+{% endhint %}
 
-Your name appears on the marketplace.
+Before you commit to a name, confirm which state it's in:
 
-### Accepting Offers
+| State | Safe to buy? |
+| --- | --- |
+| **Registered** | Yes — you inherit the remaining lease. Renew it when you're ready. |
+| **Grace** | Risky. The name has expired and stopped resolving. It's still renewable, so renew it *immediately* after buying — you have until the grace period ends. |
+| **Premium / Expired** | Don't. Anyone can register that name directly from the [Names page](https://stargaze.zone/names), and doing so takes it out of the buyer's hands. Register it yourself instead of buying it. |
 
-When you receive an offer:
+The quickest check is the owner's profile: open **Profile → Names** for the wallet selling it and read the **Expires** column and its badge. A **Grace** or **Expired** badge is your warning.
 
-1. Review the offer on the name's page
-2. Click **Accept** to complete the sale
-3. Funds go to your wallet, name goes to buyer
+The same applies to bidding. If a released name is re-registered while your bid is live, the auction is cancelled and **your bid is refunded in full** — you lose no money, but you don't get the name.
 
-### Pricing Your Name
+## Selling a name
 
-Consider:
+### List it for sale
 
-* **Length** - 3-4 character names are premium
-* **Memorability** - Easy to spell and remember
-* **Relevance** - Common words, popular terms
-* **Comparable sales** - What have similar names sold for?
+1. Go to **Profile → Names** and open the name.
+2. Click **List for Sale**, set your price, and confirm.
 
-### Tips for Sellers
+The name appears in the Names collection for anyone to buy.
 
-* **Price realistically** - Overpriced names don't sell
-* **Be patient** - The right buyer may take time
-* **Respond to offers** - Engage with potential buyers
-* **Keep it renewed** - Don't let it expire while listed
+### Accept an offer
 
-## Trading Fees
+Open the name's page, review the offers, and click **Accept**. Funds arrive in your wallet and the name goes to the buyer.
 
-When a name sells:
+### Run an auction
 
-* **Marketplace fee:** 3%
-* **Gas fee:** \~$0.01
+Create a reserve auction from the name's page if you'd rather let the market find the price. You set the reserve, the duration, and optionally a buy-now price.
 
-No royalties on names (unlike art NFTs).
+## Listing wipes your records
 
-## Transferring Names
+{% hint style="warning" %}
+**Listing a name moves it into escrow, and moving a name clears everything attached to it** — the address it points at, its profile picture, its banner, and all five links. Cancelling the listing returns the name, but not those settings. You'll have to set them up again.
+{% endhint %}
 
-Want to send a name without selling?
+So think of listing as a one-way door for your profile setup, not for the name itself. Don't casually list the name you're using as your identity.
 
-1. Go to the name's page
-2. Click **Transfer**
-3. Enter recipient's address
-4. Confirm
+While a name is listed or in a live auction its **Edit** button is disabled — the chain won't accept edits from you while the marketplace is holding it. **Renew** still works throughout, so a listed name can never expire out from under you for lack of access.
 
-Useful for gifting or moving between your own wallets.
+## Transferring without selling
 
-## High-Value Names
+To send a name to another wallet — a gift, or moving it to your own hardware wallet — open the name's page and use **Transfer**.
 
-Premium names (short, common words) can be valuable:
+A transfer clears the same settings as a listing. The new owner gets a clean name and sets it up themselves.
 
-* Research before buying or selling
-* Consider auction format for rare names
-* Verify authenticity (no typosquatting)
+## What a sale costs
 
+Fees are the standard Stargaze marketplace fees, paid by the seller:
+
+| Fee | Amount |
+| --- | --- |
+| Marketplace fee | 2% |
+| Royalty | 5% |
+| Gas | fractions of a cent |
+
+On a 100 ATOM sale the seller receives 93 ATOM.
+
+The lease itself is untouched by a sale — no fee, no reset, no renewal. See [Renewing a Name](renewals.md).
+
+## What makes a name valuable
+
+The market decides, but the usual drivers are:
+
+* **Length.** 3- and 4-character names are scarce, and priced that way at registration too.
+* **Memorability.** Real words and clean handles beat random strings.
+* **Relevance.** Project names, ticker symbols, community terms.
+* **Time left on the lease.** A name with eight years on it is worth more than the same name with three weeks.
+
+Check comparable sales in the collection's activity feed before pricing anything.
+
+## Next steps
+
+* [Renewing a Name](renewals.md) — the first thing to do after buying
+* [Managing Your Name](managing-your-name.md) — set it up once it's yours
+* [Fees](../collect/fees.md) — how marketplace fees work generally

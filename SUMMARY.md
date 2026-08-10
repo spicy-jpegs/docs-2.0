@@ -44,8 +44,11 @@
 
 * [What is a Stargaze Name?](names/what-is-a-stargaze-name.md)
 * [Registering a Name](names/registering-a-name.md)
-* [Renewals](names/renewals.md)
+* [Renewing a Name](names/renewals.md)
+* [Managing Your Name](names/managing-your-name.md)
 * [Buying & Selling Names](names/buying-and-selling-names.md)
+* [Names FAQ](names/faq.md)
+* [Integrating Names](names/integrating-names.md)
 
 ## Help
 
