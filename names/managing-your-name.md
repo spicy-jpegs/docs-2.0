@@ -8,7 +8,7 @@ Once you own a name you can decide what it points at, what picture and banner it
 2. Go to **Profile → Names** (or the **Names** menu → **My Names**).
 3. Click **Edit** on the name you want to change.
 
-Everything below is edited in that one panel, and saved with a **single transaction** — change five things at once and you sign once.
+Everything below is edited in that one panel and saved in a **single transaction**, so multiple changes require only one signature.
 
 {% hint style="info" %}
 Viewing someone else's profile shows a **View** button instead, which opens the same panel read-only. It's a quick way to see who a name points at and what links it carries.
@@ -61,13 +61,11 @@ That's expected — verification is tied to the exact value that was checked, so
 
 ## Saving
 
-**Save Changes** builds one transaction containing only what you actually changed, and Keplr shows it for approval. Fields you didn't touch are left alone.
+**Save Changes** builds one transaction containing only the fields you changed, and Keplr shows it for approval. Fields you didn't touch are left alone.
 
 The button stays disabled until there's a real change to save, so if nothing happens when you click it, nothing has changed yet.
 
-## Two things that wipe your settings
-
-This is the part worth reading twice.
+## Actions that clear your settings
 
 {% hint style="danger" %}
 **Moving a name erases everything attached to it.** Whenever a name changes hands — a transfer, a sale, or simply being placed into marketplace escrow — its associated address, its reverse link, all five text records, its profile picture and its banner are cleared.
@@ -78,7 +76,7 @@ That means:
 1. **Transferring or selling a name** hands the buyer a completely clean name. Nothing of yours travels with it. That's by design — you don't want your Discord handle following a name you sold.
 2. **Listing a name for sale escrows it**, which counts as a move. Listing and then cancelling the listing gets the name back, but **your records will be gone** and you'll have to set them up again.
 
-So: don't list the name you use as your identity on a whim. If you're testing the waters on price, be ready to redo your profile.
+Consider this before listing a name you use as your identity. If you are testing the market on price, be prepared to set your profile up again.
 
 Renewing a name does **not** touch any of this — renewals never move the NFT.
 
@@ -96,5 +94,5 @@ While a name sits in marketplace or auction escrow, your wallet isn't holding it
 ## Next steps
 
 * [Renewing a Name](renewals.md) — keep it alive
-* [Buying & Selling Names](buying-and-selling-names.md) — what a listing actually does
+* [Buying & Selling Names](buying-and-selling-names.md) — what a listing does to your name
 * [Names FAQ](faq.md)

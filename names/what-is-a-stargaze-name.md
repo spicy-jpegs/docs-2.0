@@ -16,7 +16,7 @@ people see this:
 
 Same wallet. One is impossible to remember and easy to get wrong; the other is you.
 
-## What you actually get
+## What a name gives you
 
 Registering a name gives you four things at once:
 
@@ -38,13 +38,13 @@ Stargaze Names on the Cosmos Hub are **bare** — there is no `.stars`, `.cosmos
 
 Names are not case-sensitive because uppercase simply isn't valid — `Stargazer` is rejected, `stargazer` is the name.
 
-## Names are leased, not bought forever
+## Names are leased, not owned permanently
 
-This is the one thing worth understanding before you register.
+This is the most important thing to understand before registering.
 
 A name is registered for a **term of 1 to 10 years**, paid up front in ATOM. Before that term ends you renew it. If you never renew, the name eventually goes back to the public and someone else can take it.
 
-That is deliberate. It keeps the namespace alive instead of letting it be permanently squatted by wallets that were abandoned years ago.
+This is deliberate. It keeps the namespace in circulation rather than allowing names to be held indefinitely by wallets that have been abandoned.
 
 Selling or transferring a name does **not** reset the clock. The buyer inherits whatever time is left on the lease and has to renew it themselves.
 

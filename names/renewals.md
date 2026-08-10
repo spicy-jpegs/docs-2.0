@@ -2,7 +2,7 @@
 
 A Stargaze Name is leased, not owned forever. Renewing is how you keep it. It takes about thirty seconds and one transaction.
 
-## The short version
+## Summary
 
 * Your name has an **expiry date**. Find it in your profile's **Names** tab.
 * Renew any time before that date — **renewing early costs you nothing extra**, because the new term is added on top of your existing one.
@@ -63,13 +63,13 @@ Read the **New expiry** line. That is the whole point of the transaction.
 
 Click **Renew** and approve in Keplr. You'll get a **Renewal Successful** confirmation showing the new expiry date.
 
-## Renewing before time
+## Renewing early
 
-**Renewing early is always safe, and it is the right habit.**
+**Renewing early is always safe, and is the recommended practice.**
 
 When you renew, the new years are added to your **existing expiry date**, not to today. Renew a name eleven months early and you keep those eleven months — they are added to, not replaced by, the term you just bought.
 
-So there is no reason to wait, and no reward for cutting it fine:
+There is therefore no advantage in waiting:
 
 * You can renew the day after you register.
 * You can renew on any day of the lease.
@@ -82,7 +82,7 @@ If a name is already at the 10-year cap, the panel hides the stepper and says:
 
 > This name is already at its maximum lease term and cannot be renewed right now.
 
-That's not a problem. It means the name is safe for a decade. Come back later and you'll be able to top it up again as the cap moves forward with time.
+This is expected: the name is secured for a decade. The cap moves forward with time, so the lease can be extended again later.
 
 ## What renewal costs
 
@@ -141,7 +141,7 @@ At that point the name enters the 21-day **premium** window and then becomes ful
 
 Renewal is permissionless: **anyone can renew any name**, and the name stays with its current owner. You cannot take a name by renewing it.
 
-That's useful in practice:
+This is useful in several situations:
 
 * A project can renew the names of its team or community members.
 * A DAO can renew a name held in a multisig from any member's wallet.
@@ -153,7 +153,7 @@ To do it, open the owner's profile, go to their **Names** tab, and use the name'
 
 Buying a name **does not reset its lease**. You inherit whatever term was left when you bought it, which could be years or could be days.
 
-Check the expiry the moment the name lands in your wallet, and renew if it's close. See [Buying & Selling Names](buying-and-selling-names.md#check-the-expiry-before-you-buy).
+Check the expiry the moment the name lands in your wallet, and renew if it's close. See [Buying & Selling Names](buying-and-selling-names.md#checking-the-lease-before-you-buy).
 
 ## Next steps
 
