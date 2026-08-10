@@ -30,15 +30,15 @@ Never hardcode the collection address if you can avoid it. Query the registrar's
 
 A name is a **CW721 v0.22 NFT whose `token_id` is the name string**. Owning the NFT is owning the name. The **collection** holds ownership, records, and both directions of resolution. The **registrar** holds the lease clock (`EXPIRY[name]`), prices registrations, and is the only address allowed to mint or reclaim. Lifecycle status is not stored anywhere — it is derived from `expiry` plus the current block time.
 
-## Five things that will bite you
+## Common integration pitfalls
 
-Read these before writing any code.
+Five contract behaviours that regularly cause defects. Review them before implementing.
 
-1. **The registrar does not resolve names.** It has exactly six queries — `expiry`, `status`, `price`, `is_available`, `config`, `whitelist_usage` — and none of them turn a name into an address. Resolution lives on the **collection**, behind the CW721 `extension` wrapper.
-2. **A name that doesn't exist returns an error, not `null`.** Over LCD you get an HTTP 500 with `"Name not found"`. Most wallets are unnamed, so this is the *common* path — treat it as "no name" and don't log, retry, or surface it as a failure.
-3. **`associated_address` is not `owner_of`.** A name owned by wallet A can point at wallet B, or at a contract. `owner_of` returns a plausible-looking wrong answer, and the two coincide for most names, so the bug is invisible in testing. Never substitute one for the other.
-4. **Resolution is expiry-gated.** Forward and reverse resolution return a result **only while the lease is current**. The moment a name enters grace, both queries start erroring — even though the NFT is still owned and still tradeable.
-5. **Prices are in `uatom`.** Not `ustars`. The registrar's `price` query also validates nothing about availability — it will happily quote a name that is already taken. Always pair it with `status`.
+1. **The registrar does not resolve names.** It exposes six queries — `expiry`, `status`, `price`, `is_available`, `config`, and `whitelist_usage` — none of which map a name to an address. Resolution is implemented on the **collection**, behind the CW721 `extension` wrapper.
+2. **An unregistered name returns an error, not `null`.** Over LCD the response is an HTTP 500 carrying `"Name not found"`. Most wallets have no name, so this is the expected path rather than an exceptional one: treat it as "no name", and do not log it, retry it, or surface it as a failure.
+3. **`associated_address` and `owner_of` are not interchangeable.** A name owned by wallet A may point to wallet B, or to a contract. `owner_of` returns a well-formed but incorrect answer, and the two values coincide for most names, so the defect rarely appears during testing. Always resolve through `associated_address`.
+4. **Resolution is expiry-gated.** Forward and reverse resolution return a result only while the lease is current. Both queries begin returning errors as soon as a name enters its grace period, even though the NFT remains owned and tradeable.
+5. **Prices are denominated in `uatom`, not `ustars`.** The `price` query performs no availability check and will return a quote for a name that is already registered. Pair it with `status` before presenting a price.
 
 ## Resolving a name
 
