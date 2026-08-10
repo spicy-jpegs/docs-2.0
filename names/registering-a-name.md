@@ -1,93 +1,122 @@
 # Registering a Name
 
-Claim your Stargaze Name in a few simple steps.
+Everything happens on one page: [stargaze.zone/names](https://stargaze.zone/names).
 
-## Check Availability
+## Before you start
 
-1. Go to the [Names page](https://stargaze.zone/names)
-2. Search for your desired name
-3. If available, you'll see the registration option
+You need:
 
-## Registration Process
+* A **Keplr** wallet connected to Stargaze. See [Creating a Wallet](../start-here/creating-a-wallet.md) and [Connecting to Stargaze](../start-here/connecting-to-stargaze.md).
+* **ATOM** on the Cosmos Hub for the registration price, plus a fraction of a cent for gas. See [Getting ATOM](../start-here/getting-atom.md).
 
-### Step 1: Search
+## What a name costs
 
-Enter the name you want:
-* Minimum 3 characters
-* Letters, numbers, and hyphens allowed
-* Not case-sensitive (`Starty` = `starty`)
+Names are priced by **length**, per year, in ATOM. Shorter names are rarer, so they cost more.
 
-### Step 2: Select Duration
+| Name length | Price per year |
+| --- | --- |
+| 3 characters | 100 ATOM |
+| 4 characters | 10 ATOM |
+| 5 or more characters | 1 ATOM |
 
-Choose your registration period:
-* 1 year
-* 2 years
-* 5 years
+The term you choose is anywhere from **1 to 10 years**, and pricing is linear — a 5-year registration of a 6-character name costs 5 ATOM. There is no bulk discount for registering longer, but there is no penalty either, and it means you can't forget to renew for a decade.
 
-Longer periods = lower per-year cost.
+{% hint style="info" %}
+The price you see in the search bar is the price for **one year**. The full total for your chosen term is shown in the registration panel before you sign anything.
+{% endhint %}
 
-### Step 3: Review Cost
+## Step by step
 
-You'll see:
-* Registration fee (varies by name length)
-* Total cost for selected duration
-* Payment token (ATOM)
+### 1. Search for your name
 
-### Step 4: Register
+Go to [stargaze.zone/names](https://stargaze.zone/names) and type the name you want into the search box. You don't need to connect a wallet to search.
 
-1. Click **Register**
-2. Approve the transaction
-3. Your name is minted to your wallet
+As you type, Stargaze checks the name against the chain and shows one of:
 
-## Registration Rules
+* A green tick and a price → **available**, you can register it
+* **Not available** → someone already owns it (see [Already taken?](#already-taken) below)
+* A red validation message → the name breaks one of the format rules
 
-### Name Length Pricing
+### 2. Check the format rules
 
-Shorter names cost more (higher demand):
+A name must be:
 
-| Length | Price/Year |
-|--------|------------|
-| 3 characters | Higher |
-| 4 characters | Medium |
-| 5+ characters | Base price |
+* **3 to 62 characters**
+* Made only of **lowercase letters, digits, and hyphens**
+* Not starting or ending with a hyphen, and without hyphens in the 3rd and 4th position together
 
-*Exact pricing shown during registration.*
+Typing an uppercase letter, a space, or a dot will show an error rather than silently correcting it — there is no `.stars` suffix on the Cosmos Hub.
 
-### Reserved Names
+### 3. Connect your wallet
 
-Some names are reserved:
-* Trademarked terms
-* Protocol names
-* Known impersonation attempts
+If you aren't connected, the button reads **Connect Wallet**. Connect, and it becomes **Register**.
 
-### First Come, First Served
+### 4. Choose your term
 
-Names are registered on a first-come basis. No auctions, no waitlists.
+Click **Register** to open the registration panel. Set **Years** with the stepper — anywhere from 1 to 10.
 
-## After Registration
+The summary updates live and shows:
 
-Your name is now:
-* An NFT in your wallet
-* Linked to your address
-* Visible on your profile
-* Tradeable on the marketplace
+* **Name** — what you're registering
+* **Registration** — the number of years
+* **Total** — the full price in ATOM
 
-## Tips
+### 5. Decide whether to point the name at your wallet
 
-* **Act fast** - Good names go quickly
-* **Register longer** - Saves money long-term
-* **Check spelling** - Can't change after registration
-* **Consider variations** - Protect your brand
+Below the summary there's a checkbox: **Associate with your wallet address**.
 
-## Already Taken?
+Tick it if you want this name to become your identity right away — your address will resolve to it, and Stargaze will start showing `@yourname` instead of `cosmos1…` everywhere.
 
-If your name is taken:
-* Check if it's listed for sale on the marketplace
-* Make an offer to the current owner
-* Try variations (numbers, hyphens)
-* Wait for it to expire (if not renewed)
+Leave it unticked if you're registering a name to hold, gift, or resell. You can associate it later at any time from [Managing Your Name](managing-your-name.md).
 
-## Next Steps
+{% hint style="warning" %}
+If your wallet already resolves to a different name, a note tells you so. Ticking the box repoints your address to the new name — one address can point at only one name at a time. The old name stays yours; it just stops being your display name.
+{% endhint %}
 
-* Learn about [Renewals](renewals.md)
-* Explore [Buying & Selling Names](buying-and-selling-names.md)
+### 6. Register and sign
+
+Click **Register** and approve the transaction in Keplr. When it confirms you'll see a **Registration Successful** screen with your new name, and a share button if you want to post it.
+
+The name is now an NFT in your wallet.
+
+### 7. Set up your profile
+
+Open your profile, go to the **Names** tab, and click **Edit** on your new name to add a profile picture, a banner, and your links. See [Managing Your Name](managing-your-name.md).
+
+## Presale (whitelist) registration
+
+Before public registration opened, Stargaze ran a three-stage **presale** for whitelisted wallets. If a stage is live, the Names page shows it as a **Presale** panel with a tab per stage, a live countdown, and an **Eligible** / **Not Eligible** badge once your wallet is connected.
+
+During a presale stage:
+
+* **5+ character names are free** for the first year
+* **3–4 character names are half price** for the first year
+* Each stage has its own **per-wallet allowance** — the panel shows how many you have left
+* Registration is **limited to whitelisted wallets** while a stage is live; everyone else waits for public registration
+
+{% hint style="info" %}
+The discount only ever covers the **first year**. If you pick a longer term during a presale, the extra years are added at the normal price in the same transaction, and the panel breaks that out as "1st year — whitelist" and "Years 2–N — full price".
+{% endhint %}
+
+**Public registration opened on 11 August 2026, 19:00 UTC.** From then on, anyone can register any available name at the normal price.
+
+## Recently expired names carry a premium
+
+If a name lapsed recently, it enters a 21-day **premium window** before it becomes ordinary again. It's registerable, but the price is the normal price plus a surcharge that starts at **100 ATOM** and falls steadily to zero across those 21 days.
+
+When that applies, the page tells you: *"This name recently expired and carries a temporary premium that decreases over time."* Wait, and it gets cheaper. See [Renewing a Name](renewals.md#the-lifecycle-of-a-name) for the full lifecycle.
+
+## Already taken?
+
+If the name you want is owned, you have four options:
+
+1. **Buy it.** Check whether it's listed on [the Names collection](https://stargaze.zone/m/names) — see [Buying & Selling Names](buying-and-selling-names.md).
+2. **Make an offer.** Even an unlisted name can receive an offer on its page; the owner can accept it.
+3. **Try a variation.** Hyphens and digits are valid characters.
+4. **Wait for it to lapse.** Names expire. A name that isn't renewed becomes registerable again after its grace and premium windows — roughly 111 days after its expiry date.
+
+## Next steps
+
+* [Managing Your Name](managing-your-name.md) — point it somewhere, set your picture and links
+* [Renewing a Name](renewals.md) — don't lose it
+* [Names FAQ](faq.md)
