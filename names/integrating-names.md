@@ -26,7 +26,7 @@ Mainnet and testnet hold completely independent state — a name registered on o
 Never hardcode the collection address if you can avoid it. Query the registrar's `{"config":{}}` and read `collection` from the response.
 {% endhint %}
 
-## The model in one paragraph
+## System overview
 
 A name is a **CW721 v0.22 NFT whose `token_id` is the name string**. Owning the NFT is owning the name. The **collection** holds ownership, records, and both directions of resolution. The **registrar** holds the lease clock (`EXPIRY[name]`), prices registrations, and is the only address allowed to mint or reclaim. Lifecycle status is not stored anywhere — it is derived from `expiry` plus the current block time.
 
@@ -170,7 +170,7 @@ The premium surcharge decays **linearly** to zero across the 21-day window, meas
 }
 ```
 
-Read these from the chain rather than hardcoding them — they are governance-adjustable.
+Read these from the chain rather than hardcoding them; they are governance-adjustable.
 
 ### Pricing
 
@@ -184,7 +184,7 @@ Per year, derived from `base_price` and the name's length. The multipliers are c
 
 Whitelist-member pricing halves the 3–4 char tiers and makes 5+ free, **for one year only**, and never discounts the premium surcharge.
 
-## Executes
+## Execute messages
 
 ### Register
 
@@ -226,11 +226,11 @@ Sent as `{"update_extension":{"msg": … }}`, owner-gated:
 | `{"update_image_nft":{"name":"…","nft":{…}\|null}}` | Set or clear the avatar pointer. Ownership of the referenced NFT is checked at set time. |
 | `{"update_banner_nft":{…}}` | Same, for the banner. |
 
-Batch several of these into one transaction — that's what the Stargaze UI does when you hit Save.
+Several of these may be batched into a single transaction, which is what the Stargaze interface does on save.
 
-## Two invariants you must design around
+## Design constraints
 
-### Moving a name wipes its state
+### Any transfer clears the name's state
 
 Every `transfer_nft` / `send_nft` — **regardless of caller**, including the marketplace during escrow — clears the name's entire side-map: associated address, reverse entry, all text records, avatar, and banner. A transferred name arrives clean.
 
@@ -238,7 +238,7 @@ Because listing escrows the NFT, a **list-then-cancel round trip also clears the
 
 `burn` is rejected on this collection; only the registrar destroys token state, via `reclaim` on the release path.
 
-### Expiry is invisible to the marketplace
+### Lease expiry is not visible to the marketplace
 
 CW721 `owner_of` reflects NFT ownership, not the lease. So:
 
@@ -246,21 +246,21 @@ CW721 `owner_of` reflects NFT ownership, not the lease. So:
 * A buyer can purchase such a name and have it **re-registered out from under them** — the registrar reclaims the token on the next `register`.
 * A bidder on such a name can have the auction cancelled at any moment. The high bid is refunded **in full**, so no funds are lost, but the bid never wins.
 
-The contracts deliberately do not gate transfers on expiry — that would deadlock escrow. **The mitigation is entirely off-chain: any UI or indexer that shows a name listing or auction must surface `status`/`expiry` and warn or block on anything that isn't `registered`.** If you build a marketplace surface over this collection, this is your obligation, not the contract's.
+The contracts deliberately do not gate transfers on expiry — that would deadlock escrow. **The mitigation is entirely off-chain: any UI or indexer that shows a name listing or auction must surface `status`/`expiry` and warn or block on anything that isn't `registered`.** For any marketplace surface built over this collection, this obligation sits with the integrator, not the contract.
 
 ## Indexing
 
-If you're building an indexer rather than querying live:
+For integrations that index rather than query live:
 
 * **Ingest** `wasm-register`, `wasm-renew`, `wasm-set-whitelist`, and `wasm-update-config` from the registrar (authoritative for expiry); `wasm` `action=transfer_nft`/`send_nft`/`mint`, `wasm-reclaim`, `wasm-associate-address`, the `*-text-record` events, `wasm-update-image-nft`, and `wasm-update-banner-nft` from the collection (authoritative for owner, records, resolution). Always disambiguate by `_contract_address`, and process events in `(height, tx_index, msg_index, event_index)` order.
 * **Store `expiry`, compute `status`.** Lifecycle transitions emit **no event** — a name entering grace or being released happens silently as the clock passes a boundary. If you need status filters or user notifications, run a scheduler that re-materializes status near window boundaries.
-* **Mirror the wipe rules.** `transfer_nft`, `send_nft`, and `reclaim` all clear associated address, reverse, records, avatar, and banner. Getting this wrong leaves stale records on sold names.
+* **Mirror the wipe rules.** `transfer_nft`, `send_nft`, and `reclaim` all clear associated address, reverse, records, avatar, and banner. Omitting them leaves stale records on sold names.
 * **Gate cached resolution on `status == registered`**, or your answers will drift from the on-chain ones the moment a lease lapses.
-* **Reconcile periodically.** Re-query `owner_of`, `expiry`, `associated_address`, and `text_records` for recently-touched names and correct drift. Cheap insurance against missed events.
+* **Reconcile periodically.** Re-query `owner_of`, `expiry`, `associated_address`, and `text_records` for recently-touched names and correct drift. This is inexpensive insurance against missed events.
 
-## Displaying names well
+## Display conventions
 
-A few conventions Stargaze follows, worth matching for consistency:
+Conventions Stargaze follows, which integrators are encouraged to match:
 
 * Render a name as `@name`. The `@` is presentation only — never send it to the chain.
 * Names are bare. Don't append `.stars`, `.cosmos`, or anything else.

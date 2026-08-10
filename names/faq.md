@@ -58,7 +58,7 @@ Not the name itself — a name is fixed once minted. What you change is which na
 
 <summary>Do I lose time if I renew early?</summary>
 
-No. The years you buy are added to your **existing expiry date**, not to today. Renewing early is free of any penalty and is the safest habit. See [Renewing a Name](renewals.md#renewing-before-time).
+No. The years you buy are added to your **existing expiry date**, not to today. Renewing early is free of any penalty and is the safest habit. See [Renewing a Name](renewals.md#renewing-early).
 
 </details>
 
@@ -152,7 +152,7 @@ The name is listed for sale or in a live auction, so the marketplace is holding 
 
 No, and that's deliberate. Any move of the name — sale, transfer, or being placed into marketplace escrow — clears the address it points at, all five text records, the profile picture and the banner. The buyer receives a clean name.
 
-The catch: **listing a name is a move**. Listing and then cancelling gets the name back but not your settings. See [Managing Your Name](managing-your-name.md#two-things-that-wipe-your-settings).
+The catch: **listing a name is a move**. Listing and then cancelling gets the name back but not your settings. See [Managing Your Name](managing-your-name.md#actions-that-clear-your-settings).
 
 </details>
 
@@ -168,7 +168,7 @@ No. You inherit whatever time is left on the lease. Check the expiry immediately
 
 <summary>Can I buy an expired name safely?</summary>
 
-Be careful. An expired name is still a tradeable NFT, but anyone can register it out from under the buyer, with no refund. Buying a name in its **grace** period is workable if you renew immediately. Buying one that's past grace is not — register it directly instead. See [Buying & Selling Names](buying-and-selling-names.md#check-the-expiry-before-you-buy).
+Be careful. An expired name is still a tradeable NFT, but anyone can register it out from under the buyer, with no refund. Buying a name in its **grace** period is workable if you renew immediately. Buying one that's past grace is not — register it directly instead. See [Buying & Selling Names](buying-and-selling-names.md#checking-the-lease-before-you-buy).
 
 </details>
 
@@ -198,6 +198,6 @@ Records were carried over where possible. Open **Edit** once to confirm your lin
 
 </details>
 
-## Still stuck?
+## Further help
 
 See [Community & Support](../help/community-and-support.md).

@@ -1,6 +1,6 @@
 # Buying & Selling Names
 
-Names are NFTs, so they trade on Stargaze exactly like art does — listings, offers, and reserve auctions. There are two things that make names different from a normal collectible, and both are on this page.
+Names are NFTs, so they trade on Stargaze exactly like art does — listings, offers, and reserve auctions. Two characteristics distinguish names from an ordinary collectible, and both are covered on this page.
 
 Browse them all at [stargaze.zone/m/names](https://stargaze.zone/m/names).
 
@@ -28,7 +28,7 @@ Your offer sits there until the owner accepts it, you cancel it, or it expires. 
 
 Some names are sold by **reserve auction** instead of a fixed price. Place a bid and it's held in escrow; if someone outbids you, you're refunded automatically.
 
-## Check the expiry before you buy
+## Checking the lease before you buy
 
 {% hint style="danger" %}
 **A name that has expired is still tradeable.** The marketplace can only see who holds the NFT — it cannot see the lease. So an expired name can be listed, bought and paid for, and then **re-registered by somebody else**, and there is no refund. Always check the expiry before you buy or bid.
@@ -40,7 +40,7 @@ Before you commit to a name, confirm which state it's in:
 | --- | --- |
 | **Registered** | Yes — you inherit the remaining lease. Renew it when you're ready. |
 | **Grace** | Risky. The name has expired and stopped resolving. It's still renewable, so renew it *immediately* after buying — you have until the grace period ends. |
-| **Premium / Expired** | Don't. Anyone can register that name directly from the [Names page](https://stargaze.zone/names), and doing so takes it out of the buyer's hands. Register it yourself instead of buying it. |
+| **Premium / Expired** | Not advisable. Anyone can register that name directly from the [Names page](https://stargaze.zone/names), and doing so takes it out of the buyer's hands. Register it yourself instead of buying it. |
 
 The quickest check is the owner's profile: open **Profile → Names** for the wallet selling it and read the **Expires** column and its badge. A **Grace** or **Expired** badge is your warning.
 
@@ -63,13 +63,13 @@ Open the name's page, review the offers, and click **Accept**. Funds arrive in y
 
 Create a reserve auction from the name's page if you'd rather let the market find the price. You set the reserve, the duration, and optionally a buy-now price.
 
-## Listing wipes your records
+## Listing clears your records
 
 {% hint style="warning" %}
 **Listing a name moves it into escrow, and moving a name clears everything attached to it** — the address it points at, its profile picture, its banner, and all five links. Cancelling the listing returns the name, but not those settings. You'll have to set them up again.
 {% endhint %}
 
-So think of listing as a one-way door for your profile setup, not for the name itself. Don't casually list the name you're using as your identity.
+Listing is therefore reversible for the name but not for your profile setup. Take that into account before listing a name you use as your identity.
 
 While a name is listed or in a live auction its **Edit** button is disabled — the chain won't accept edits from you while the marketplace is holding it. **Renew** still works throughout, so a listed name can never expire out from under you for lack of access.
 
