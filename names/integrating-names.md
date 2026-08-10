@@ -46,17 +46,17 @@ Read these before writing any code.
 
 ```bash
 COL=cosmos1pq7vpw5k3ad4jlaskuhm66gjapump23zz69ut9fck2p5k5p4sq9s79da69
-Q=$(echo -n '{"extension":{"msg":{"associated_address":{"name":"starty"}}}}' | base64)
+Q=$(echo -n '{"extension":{"msg":{"associated_address":{"name":"stargazer"}}}}' | base64)
 curl -s "https://hub-rest.stargaze-apis.com/cosmwasm/wasm/v1/contract/$COL/smart/$Q"
-# {"data":"cosmos1dt8sxe4yhmt742aq78unyaglhmqy59pnhap96w3mdszzc7t2g0yqu2as4l"}
+# {"data":"cosmos1h7vk2ycx8m4gq3n0dzp9awufe5s6tlr4jb2xdq7mve3n8ku0y9rs2pfw6c"}
 ```
 
 ### Reverse — address → name
 
 ```bash
-Q=$(echo -n '{"extension":{"msg":{"name":{"address":"cosmos1dt8..."}}}}' | base64)
+Q=$(echo -n '{"extension":{"msg":{"name":{"address":"cosmos1h7v..."}}}}' | base64)
 curl -s "https://hub-rest.stargaze-apis.com/cosmwasm/wasm/v1/contract/$COL/smart/$Q"
-# {"data":"starty"}
+# {"data":"stargazer"}
 ```
 
 An address resolves to **at most one** name — the contract clears any previous association when a new one is set.
@@ -99,16 +99,16 @@ All on the collection, all behind the same `extension` wrapper, and — unlike r
 
 | Query | Returns |
 | --- | --- |
-| `{"text_records":{"name":"starty"}}` | `[{ name, value, verified }]` |
-| `{"image_nft":{"name":"starty"}}` | `{ collection, token_id }` or `null` |
-| `{"banner_nft":{"name":"starty"}}` | `{ collection, token_id }` or `null` |
-| `{"is_twitter_verified":{"name":"starty"}}` | `bool` |
+| `{"text_records":{"name":"stargazer"}}` | `[{ name, value, verified }]` |
+| `{"image_nft":{"name":"stargazer"}}` | `{ collection, token_id }` or `null` |
+| `{"banner_nft":{"name":"stargazer"}}` | `{ collection, token_id }` or `null` |
+| `{"is_twitter_verified":{"name":"stargazer"}}` | `bool` |
 
 ```json
 [
-  { "name": "twitter",  "value": "startynft",             "verified": true },
-  { "name": "discord",  "value": "f79DAyfEdA",            "verified": null },
-  { "name": "website",  "value": "https://startynft.com", "verified": null }
+  { "name": "twitter", "value": "stargazezone",           "verified": true },
+  { "name": "discord", "value": "stargazer",              "verified": null },
+  { "name": "website", "value": "https://stargaze.zone",  "verified": null }
 ]
 ```
 

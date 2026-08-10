@@ -5,13 +5,13 @@ A **Stargaze Name** is a short, human-readable identity for your Cosmos Hub wall
 Instead of this:
 
 ```
-cosmos1pq7vpw5k3ad4jlaskuhm66gjapump23zz69ut9fck2p5k5p4sq9s79da69
+cosmos1h7vk2ycx8m4gq3n0dzp9awufe5s6tlr4jb2xdq7mve3n8ku0y9rs2pfw6c
 ```
 
 people see this:
 
 ```
-@starty
+@stargazer
 ```
 
 Same wallet. One is impossible to remember and easy to get wrong; the other is you.
@@ -36,7 +36,7 @@ Stargaze Names on the Cosmos Hub are **bare** — there is no `.stars`, `.cosmos
 | Not allowed | uppercase, spaces, dots, emoji, or any other symbol |
 | Hyphens | cannot be the first or last character, and cannot sit in the 3rd and 4th position together |
 
-Names are not case-sensitive because uppercase simply isn't valid — `Starty` is rejected, `starty` is the name.
+Names are not case-sensitive because uppercase simply isn't valid — `Stargazer` is rejected, `stargazer` is the name.
 
 ## Names are leased, not bought forever
 

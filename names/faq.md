@@ -6,7 +6,7 @@
 
 <summary>Does my name end in <code>.stars</code>?</summary>
 
-No. Stargaze Names on the Cosmos Hub are **bare** — the name is just the word, with no suffix at all. Stargaze displays it with an `@` in front (`@starty`) the way a social handle is shown, but the `@` isn't part of the name either. Typing a dot into the search box will fail validation, because dots aren't a valid character.
+No. Stargaze Names on the Cosmos Hub are **bare** — the name is just the word, with no suffix at all. Stargaze displays it with an `@` in front (`@stargazer`) the way a social handle is shown, but the `@` isn't part of the name either. Typing a dot into the search box will fail validation, because dots aren't a valid character.
 
 </details>
 
@@ -16,7 +16,7 @@ No. Stargaze Names on the Cosmos Hub are **bare** — the name is just the word,
 
 Lowercase letters `a–z`, digits `0–9`, and hyphens. Between 3 and 62 characters long. A hyphen can't be the first or last character, and hyphens can't sit in the 3rd and 4th position together.
 
-Uppercase isn't converted, it's rejected — the valid form of `Starty` is `starty`.
+Uppercase isn't converted, it's rejected — the valid form of `Stargazer` is `stargazer`.
 
 </details>
 

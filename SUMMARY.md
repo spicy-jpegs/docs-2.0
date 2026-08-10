@@ -40,7 +40,7 @@
 * [Guidelines](studio/guidelines.md)
 * [FAQ & Troubleshooting](studio/faq.md)
 
-## Names
+## Stargaze Names
 
 * [What is a Stargaze Name?](names/what-is-a-stargaze-name.md)
 * [Registering a Name](names/registering-a-name.md)
