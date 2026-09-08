@@ -50,6 +50,16 @@
 * [Names FAQ](names/faq.md)
 * [Integrating Names](names/integrating-names.md)
 
+## StarBurst
+
+* [What is StarBurst?](starburst/README.md)
+* [Entering a Raffle](starburst/entering-a-raffle.md)
+* [Rounds & Draws](starburst/rounds-and-draws.md)
+* [Prizes & Packs](starburst/prizes-and-packs.md)
+* [Winning & Claiming](starburst/winning-and-claiming.md)
+* [Running a Pool](starburst/running-a-pool.md)
+* [StarBurst FAQ](starburst/faq.md)
+
 ## Help
 
 * [FAQ](help/faq.md)
