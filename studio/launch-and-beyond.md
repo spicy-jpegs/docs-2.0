@@ -35,6 +35,8 @@ Want to airdrop to your holders or run a follow-up drop?
 1. Export a holder list with [Snapshots](creator-tools.md).
 2. Airdrop tokens straight to those wallets from the [Collection Manager](managing-your-collection.md), or use the list as a whitelist for your next mint.
 
+You can also run a raffle alongside the mint itself. **StarBurst** credits raffle tickets to everyone who mints your collection and draws NFT prizes from a vault you stock. See [Running a Pool](../starburst/running-a-pool.md).
+
 ## Revealing later
 
 Vending collections reveal randomly as people mint. If you launched with placeholder art and want to reveal the real pieces afterward, update the token metadata from [Update Metadata](managing-your-collection.md) — the on-chain art pointer is the token field you can change after launch.
